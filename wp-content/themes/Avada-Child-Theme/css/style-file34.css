@@ -1,0 +1,4179 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.1
+Text Domain:  Avada
+*/
+/* Color variables */
+@font-face {
+  font-family: 'ralewaylight';
+  font-display: fallback;
+  src: url("../fonts/releway/Raleway-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'ralewayreg';
+  font-display: fallback;
+  src: url("../fonts/releway/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'ralewaysemi';
+  font-display: fallback;
+  src: url("../fonts/releway/Raleway-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'ralewaymed';
+  font-display: fallback;
+  src: url("../fonts/releway/Raleway-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'ralewaybold';
+  font-display: fallback;
+  src: url("../fonts/releway/Raleway-Bold.TTF") format("truetype");
+}
+
+/* line 1, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_typography.scss */
+strong {
+  font-family: raleway;
+  padding-bottom: 40px;
+  color: #1C2F5E;
+  letter-spacing: -0.12px;
+}
+
+/* line 11, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_typography.scss */
+.fusion-imageframe img {
+  width: 100%;
+}
+
+/* line 16, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_typography.scss */
+.post-content .highlight-text {
+  color: #1C2F5E;
+  font-family: ralewaybold;
+  font-size: 26px;
+  letter-spacing: 0.26px;
+  line-height: 31px;
+}
+
+/* line 1, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+span.a-title {
+  display: block;
+  font-size: 20px;
+  font-family: ralewaysemi;
+  color: #1c2f5e !important;
+}
+
+/* line 8, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+span.a-subtitle {
+  color: #1c2f5e !important;
+}
+
+/* line 12, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.grecaptcha-badge {
+  z-index: 999999;
+}
+
+/* line 16, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#mega-menu-wrap-main_navigation #mega-menu-main_navigation > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link:hover {
+  color: #8bc9ed !important;
+}
+
+/* line 20, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.styled-dots img {
+  width: 150px;
+}
+
+/* line 24, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.fusion-is-sticky .fusion-mobile-menu-design-modern .fusion-mobile-nav-holder > ul {
+  max-height: unset;
+}
+
+/* line 28, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#mega-menu-wrap-main_navigation #mega-menu-main_navigation > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link:hover {
+  background: transparent !important;
+}
+
+/* line 32, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#mega-menu-wrap-main_navigation #mega-menu-main_navigation > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link {
+  color: #8bc9ed;
+  /* font-weight: 600;
+    font-size: 17px !important;*/
+}
+
+/* line 38, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#mega-menu-wrap-main_navigation #mega-menu-main_navigation > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link,
+#mega-menu-wrap-main_navigation #mega-menu-main_navigation > li.mega-menu-flyout ul.mega-sub-menu {
+  background: #fff;
+}
+
+/* line 43, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#nav_menu-3 > h4,
+#nav_menu-4 > h4 {
+  display: none;
+}
+
+/* line 48, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.mega-contact-us-CTA a.mega-menu-link {
+  color: #fff !important;
+}
+
+/* line 52, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#wrapper .fusion-vertical-menu-widget .menu li.current_page_item > a {
+  border-right-color: transparent !important;
+  border-left-color: transparent !important;
+}
+
+/* line 57, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+section#custom_html-15 {
+  margin-bottom: 0;
+}
+
+/* line 61, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+section#custom_html-16 {
+  margin-bottom: 0;
+}
+
+/* line 65, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.mega-sub-menu a.mega-menu-link {
+  color: #03326c !important;
+  font-weight: 500 !important;
+}
+
+/* line 70, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.fusion-widget-area .widget_nav_menu li {
+  border: none;
+}
+
+/* line 74, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.footer-title-link {
+  color: #94caef !important;
+  font-size: 18px !important;
+  margin: 0 0 15px !important;
+  font-family: ralewayreg !important;
+  text-transform: unset !important;
+  padding: 0;
+  display: block;
+}
+
+/* line 84, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#menu-our-products a,
+#menu-about-intelematics a,
+#menu-get-in-touch a {
+  color: #fff;
+  font-size: 17px;
+  font-family: ralewayreg;
+}
+
+/* line 92, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#menu-about-intelematics .widget-title:nth-child(1),
+#menu-get-in-touch .widget-title:nth-child(1) {
+  display: none;
+}
+
+/* line 97, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#menu-our-products .menu-item,
+#menu-about-intelematics .menu-item,
+#menu-get-in-touch .menu-item {
+  border: none;
+  padding-left: 2px;
+  padding-bottom: 0;
+}
+
+/* line 105, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.fusion-footer-widget-area .widget_nav_menu li a:before {
+  display: none;
+}
+
+/* line 109, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#mega-menu-wrap-mobile_navigation #mega-menu-mobile_navigation li.mega-menu-item-has-children > a.mega-menu-link > span.mega-indicator:after {
+  display: none;
+}
+
+/* line 113, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.fusion-icon-bars:before {
+  content: "\f0c9";
+  content: url(http://localhost:8887/intelematics/wp-content/uploads/2019/08/hamburger-icon.svg) !important;
+  width: 50px;
+  display: block;
+}
+
+/* line 120, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.fusion-mobile-menu-icons a {
+  margin-top: 14px;
+}
+
+/* line 124, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.fusion-main-menu > ul > li > a:hover {
+  border: none;
+}
+
+/* line 128, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.fusion-header {
+  height: auto !important;
+}
+
+/* line 132, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.fusion-main-menu > ul > li > a {
+  border-top: 0;
+}
+
+/* line 136, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.fusion-main-menu > ul > li > a {
+  font-family: ralewayreg !important;
+}
+
+/* line 140, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.fusion-header-v3 .fusion-header {
+  border: none;
+}
+
+/* line 144, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.white .sa_owl_theme .owl-nav .owl-prev {
+  background: rgba(0, 0, 0, 0) url(//localhost:8887/intelematics/wp-content/uploads/2019/07/left-arrow.png) no-repeat center center !important;
+}
+
+/* line 148, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.white .sa_owl_theme .owl-nav .owl-next {
+  background: rgba(0, 0, 0, 0) url(//localhost:8887/intelematics/wp-content/uploads/2019/07/right-arrow.png) no-repeat center center !important;
+}
+
+/* line 152, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.white .sa_owl_theme .owl-nav .owl-prev:hover,
+.white .sa_owl_theme .owl-nav .owl-next:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* line 157, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#mega-menu-wrap-mobile_navigation .mega-menu-toggle .mega-toggle-block-1:after {
+  content: url(http://localhost:8887/intelematics/wp-content/uploads/2019/07/burger-icon.svg) !important;
+  width: 35px !important;
+  height: auto !important;
+}
+
+/* line 163, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.autohide-arrows .owl-nav {
+  display: block !important;
+}
+
+/* line 167, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+a:hover {
+  color: #8bc9ed !important;
+}
+
+/* line 171, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.footerlink:hover {
+  color: #8bc9ed !important;
+  text-shadow: 0 0 1px #8bc9ed;
+}
+
+@media only screen and (max-width: 800px) {
+  /* line 177, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  .width-50 {
+    width: 50% !important;
+  }
+  /* line 180, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  .image-bottom {
+    display: none !important;
+  }
+  /* line 183, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  .image-bottom {
+    display: none !important;
+  }
+  /* line 186, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  #mega-menu-wrap-mobile_navigation #mega-menu-mobile_navigation > li.mega-menu-item > a.mega-menu-link {
+    border-bottom: none;
+  }
+  /* line 189, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  .fusion-mobile-nav-item a {
+    background-color: transparent !important;
+  }
+  /* line 192, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  .pods {
+    display: none !important;
+  }
+  /* line 195, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  .fusion-header-v4 .fusion-header {
+    padding-bottom: 12px !important;
+    padding-top: 10px !important;
+  }
+  /* line 199, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  #mega-menu-item-480 {
+    border-bottom: unset !important;
+  }
+  /* line 203, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  #mega-menu-wrap-mobile_navigation #mega-menu-mobile_navigation > li.mega-menu-item > a.mega-menu-link {
+    border-bottom: 1px solid #305F97 !important;
+    padding: 0 22px !important;
+  }
+  /* line 207, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  a.mega-menu-link {
+    font-size: 16px;
+    font-family: ralewayreg !important;
+  }
+}
+
+/* line 213, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#mega-menu-wrap-mobile_navigation .mega-menu-toggle .mega-toggle-block-1:after {
+  content: '\f349';
+  font-family: 'dashicons';
+  font-size: 30px !important;
+  color: #ddd;
+  margin: 0 0 0 5px;
+}
+
+/* line 221, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#mega-menu-wrap-main_navigation #mega-menu-main_navigation > li.mega-menu-item > a.mega-menu-link {
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 1147px) {
+  /* line 226, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  a.mega-menu-link {
+    padding: 0 20px !important;
+  }
+}
+
+@media only screen and (min-width: 861) and (max-width: 1023px) {
+  /* line 232, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  #mega-menu-wrap-main_navigation #mega-menu-main_navigation > li .mega-menu-item > a.mega-menu-link {
+    font-size: 15px !important;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 936px) {
+  /* line 238, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  a.mega-menu-link {
+    padding: 0 13px !important;
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (min-width: 801px) {
+  /* line 245, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  .mega-menu-item > ul.mega-sub-menu {
+    border-radius: 2px !important;
+    box-shadow: 0 0 10px 5px rgba(28, 47, 94, 0.06) !important;
+  }
+  /* line 249, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  .fusion-header-wrapper .fusion-row {
+    max-width: 1280px !important;
+  }
+  /* line 252, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  .image-top {
+    display: none !important;
+  }
+  /* line 255, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  #mega-menu-item-1226 > a {
+    border-bottom: none !important;
+  }
+  /* line 258, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  #pods-slider,
+  .slider-pods {
+    display: none !important;
+  }
+  /* line 262, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  .single-post main#main {
+    position: relative;
+  }
+  /* line 265, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  .page-id-378 h2.entry-title {
+    font-size: 25px !important;
+  }
+  /* line 268, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  #mega-menu-wrap-main_navigation #mega-menu-main_navigation > li.mega-menu-item > a.mega-menu-link:hover {
+    color: #8bc9ed;
+    transition: all .1s ease-in;
+  }
+  /* line 272, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  #mega-menu-item-1232 > a:hover {
+    color: #fff !important;
+  }
+  /* line 275, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  .mega-contact-us-CTA a.mega-menu-link:hover {
+    color: #fff !important;
+  }
+}
+
+/*404 Page styling*/
+/* line 283, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.error404 .fusion-header {
+  background: #03326c !important;
+}
+
+/* line 287, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.error404 .fusion-breadcrumbs {
+  display: none !important;
+}
+
+/* line 291, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.error-message {
+  padding-bottom: 60px;
+  font-size: 200px !important;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+  /* line 297, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  h2.entry-title {
+    font-size: 20px !important;
+  }
+  /* line 300, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  .temp-cust-logo {
+    padding-top: 0 !important;
+  }
+  /* line 303, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  #post-378 > div > div:nth-child(1) > div > div > div {
+    padding: 0 !important;
+  }
+  /* line 306, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+  .padding-top-remove {
+    padding-top: 0 !important;
+  }
+}
+
+/* line 311, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+a.menu_cta-2:hover {
+  color: #fff !important;
+}
+
+/* line 315, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+a.menu_cta:hover,
+a.menu_cta2:hover {
+  color: #fff !important;
+}
+
+/* line 320, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#mega-menu-wrap-mobile_navigation li > a {
+  color: #fff !important;
+}
+
+/* line 324, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#mega-menu-wrap-mobile_navigation li > a:hover {
+  color: #8bc9ed !important;
+}
+
+/* line 328, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#mega-menu-wrap-mobile_navigation .custom-html-widget a {
+  color: #000 !important;
+}
+
+/* line 332, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#mega-menu-wrap-mobile_navigation .custom-html-widget a:hover {
+  color: #8bc9ed !important;
+}
+
+/* line 336, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+img.image.wp-image-336.attachment-full.size-full {
+  height: 25px !important;
+  width: auto;
+}
+
+/* line 341, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.mega-menu-item > ul.mega-sub-menu {
+  border-top: solid 4px #83c5ec !important;
+  margin-top: 1px !important;
+  padding: 0 !important;
+}
+
+/* line 347, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+#mega-menu-wrap-main_navigation #mega-menu-main_navigation > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link:hover {
+  background: #f1f1f1;
+}
+
+/* line 351, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+h2.blog-shortcode-post-title.entry-title {
+  width: 100%;
+  font-size: 17px !important;
+}
+
+/* line 356, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+h2.blog-shortcode-post-title.entry-title a {
+  color: #03326c !important;
+}
+
+/* line 360, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.fusion-blog-shortcode .fusion-rollover {
+  display: none !important;
+}
+
+/* line 364, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.fusion-blog-shortcode .fusion-post-content-wrapper > div > p > span:nth-child(3) {
+  font-size: 13px !important;
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+
+/* line 375, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.single-navigation.clearfix {
+  display: none;
+}
+
+/* line 379, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.fusion-flexslider.flexslider.post-slideshow.fusion-post-slideshow {
+  max-height: 380px;
+  overflow: hidden;
+  margin-top: 70px;
+  margin-bottom: 35px;
+  margin-left: 0;
+}
+
+/* line 399, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.share-box .fusion-social-network-icon {
+  margin: 0 !important;
+}
+
+/* line 403, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.share-box .fusion-social-networks-wrapper {
+  width: 46px;
+}
+
+/* line 407, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.share-box .fusion-social-networks-wrapper::before {
+  display: none !important;
+}
+
+/* line 425, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.fusion-title .title-sep.sep-double {
+  height: 6px;
+  /* border-bottom-width: 1px; */
+  /* border-top-width: 1px; */
+}
+
+/* line 438, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.fusion-meta-info {
+  border-top: 0;
+}
+
+/* line 442, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+section.related-posts.single-related-posts {
+  margin-bottom: 100px;
+}
+
+/* line 446, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+span.fusion-inline-sep {
+  display: none;
+}
+
+/* line 463, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.single-post .fusion-title.fusion-title-size-three.sep-double.sep-solid {
+  padding-top: 45px;
+  border-top: 1px solid #d9d9d9;
+}
+
+/* line 468, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+.single-post h3.title-heading-left {
+  font-size: 25px !important;
+  color: #03326c !important;
+}
+
+/*Temporary CSS*/
+/* line 480, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_fusion_customcss.scss */
+h2.entry-title.fusion-post-title {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #03326c !important;
+}
+
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.1
+Text Domain:  Avada
+*/
+/* line 11, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.white-text {
+  color: #fff !important;
+}
+
+/* line 15, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.new-button {
+  border-radius: 6px !important;
+}
+
+/* line 19, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#wrapper .fusion-vertical-menu-widget .menu li.current_page_item > a {
+  border-right-color: transparent !important;
+  border-left-color: transparent !important;
+}
+
+/*Youtube Lazyload*/
+/* line 27, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.youtube {
+  background-color: #000;
+  margin-bottom: 0;
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* line 36, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.youtube:hover .play-button {
+  background-color: #ff1d1d;
+  transition: all .3s ease-in;
+  border: none;
+}
+
+/* line 42, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.youtube img {
+  width: 100%;
+  top: -16.84%;
+  left: 0;
+  opacity: 0.7;
+}
+
+/* line 49, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.youtube .play-button {
+  width: 90px;
+  height: 60px;
+  background-color: #333;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  opacity: 0.8;
+  border-radius: 6px;
+}
+
+/* line 59, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.youtube .play-button:before {
+  content: "";
+  border-style: solid;
+  border-width: 15px 0 15px 26.0px;
+  border-color: transparent transparent transparent #fff;
+}
+
+/* line 66, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.youtube img,
+.youtube .play-button {
+  cursor: pointer;
+}
+
+/* line 71, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.youtube img,
+.youtube iframe,
+.youtube .play-button,
+.youtube .play-button:before {
+  position: absolute;
+}
+
+/* line 78, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.youtube .play-button,
+.youtube .play-button:before {
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+/* line 85, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.youtube iframe {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* line 92, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#mega-menu-wrap-main_navigation #mega-menu-main_navigation > li.mega-menu-item > a.mega-menu-link {
+  color: #1c2f5e;
+  font-family: ralewayreg;
+}
+
+/* line 97, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.mega-contact-us-CTA a.mega-menu-link {
+  color: #fff !important;
+  /*   font-family: ralewaysemi !important; */
+}
+
+/* line 102, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-main-menu .sub-menu .current-menu-item > a {
+  color: #8bc9ed !important;
+}
+
+/* line 106, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#mega-menu-wrap-main_navigation #mega-menu-main_navigation > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link {
+  font-size: 17px;
+}
+
+/* line 110, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-social-networks .fusion-social-network-icon {
+  display: inline-block;
+  margin: 0 5px 5px;
+}
+
+/* line 115, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-social-networks {
+  overflow: initial !important;
+}
+
+/* line 119, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-alert {
+  padding: 15px !important;
+  margin: 0 40px !important;
+}
+
+/* line 124, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.logos img {
+  height: 25px;
+  width: auto;
+}
+
+/* line 129, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.sa_owl_theme .owl-nav .owl-next {
+  right: -30px !important;
+}
+
+/* line 135, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.sa_owl_theme .owl-nav .owl-prev {
+  left: -30px !important;
+}
+
+/* line 139, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+input.wpcf7-form-control.wpcf7-submit {
+  font-family: ralewaysemi !important;
+  font-size: 18px !important;
+}
+
+/* line 144, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.autohide-arrows .owl-nav {
+  display: block !important;
+}
+
+/* line 148, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+div#sect-hero {
+  overflow: hidden;
+}
+
+/* line 152, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-button-text {
+  font-family: ralewaysemi;
+}
+
+/* line 156, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-page-title-bar {
+  background: #0a1613 !important;
+  background-image: url(/wp-content/uploads/2019/07/inner-banner-2-1.jpg) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* line 163, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-page-title-wrapper {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 169, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.sa_owl_theme .owl-nav .owl-next {
+  right: -40px;
+  top: 55px;
+}
+
+/* line 174, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.sa_owl_theme .owl-nav .owl-prev {
+  left: 10px;
+  top: 55px;
+}
+
+/* line 179, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.svg-icons {
+  width: 70px;
+}
+
+/* line 183, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-text.blue-check {
+  padding-left: 30px;
+}
+
+/* line 187, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.reset-position {
+  position: unset !important;
+}
+
+/* line 191, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.arrow-right img {
+  height: 180px;
+  width: 140px;
+  margin-top: 15px;
+  left: 0;
+  position: relative;
+}
+
+/* line 199, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.align-right .fusion-column-wrapper {
+  text-align: right;
+}
+
+/* line 203, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.arrow-left img {
+  height: 180px;
+  width: 140px;
+  margin-top: 15px;
+  right: 0;
+  position: relative;
+}
+
+/* line 211, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-text.access-our:before {
+  content: '';
+  background: url(/wp-content/uploads/2019/08/diagram-1.svg);
+  background-size: contain !important;
+  position: absolute;
+  width: 232px;
+  display: block;
+  height: 250px;
+  left: 0;
+  background-repeat: no-repeat;
+  top: -30px;
+}
+
+/* line 224, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-text.leverage:before {
+  content: '';
+  background: url(/wp-content/uploads/2019/08/diagram-3.svg);
+  background-size: contain !important;
+  position: absolute;
+  width: 232px;
+  display: block;
+  height: 250px;
+  left: 0;
+  background-repeat: no-repeat;
+  top: -30px;
+}
+
+/* line 237, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-text.understand:after {
+  content: '';
+  background: url(/wp-content/uploads/2019/08/diagram-2.svg);
+  background-size: contain !important;
+  position: absolute;
+  width: 232px;
+  display: block;
+  height: 250px;
+  right: 0;
+  background-repeat: no-repeat;
+  top: -30px;
+}
+
+/* line 250, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.blue-check:before {
+  content: url(/wp-content/uploads/2019/07/blue_checkmark.svg);
+  width: 18px;
+  height: 18px;
+  display: block;
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 5px;
+}
+
+/* line 260, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.gov-icon:before {
+  content: url(/wp-content/uploads/2019/08/government.svg);
+  position: absolute;
+  display: block;
+  width: 65px;
+  height: 65px;
+  top: 17px;
+  left: 30px;
+}
+
+/* line 270, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.trans-icon:before {
+  content: url(/wp-content/uploads/2019/08/transportation.svg);
+  position: absolute;
+  display: block;
+  width: 65px;
+  height: 65px;
+  top: 17px;
+  left: 30px;
+}
+
+/* line 280, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.con-icon:before {
+  content: url(/wp-content/uploads/2019/08/construction.svg);
+  position: absolute;
+  display: block;
+  width: 65px;
+  height: 65px;
+  top: 17px;
+  left: 30px;
+}
+
+/* line 290, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.gov-icon,
+.con-icon,
+.trans-icon {
+  margin-bottom: 30px;
+  padding-left: 80px;
+  padding-top: 20px;
+}
+
+/* line 298, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#popmake-536 span.wpcf7-form-control-wrap {
+  width: 100% !important;
+}
+
+/* line 302, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+span.wpcf7-form-control-wrap {
+  display: inline-block;
+  width: 50%;
+  padding: 0 10px 0 0;
+}
+
+/* line 308, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.your-message {
+  width: 100% !important;
+}
+
+/* line 312, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-slider-loading {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* line 317, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.wpcf7-form .wpcf7-response-output {
+  margin-top: 0 !important;
+}
+
+/* line 321, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.wpcf7-form-control-wrap {
+  display: block;
+}
+
+/* line 325, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.wpcf7-form .wpcf7-not-valid-tip {
+  position: absolute !important;
+  top: 10px;
+  font-size: 14px !important;
+  right: 12px !important;
+  text-align: right;
+  transition: .5s all ease-in;
+}
+
+/* line 334, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-header-v4 .fusion-header {
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+}
+
+/* line 339, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.pum-title {
+  color: #fff !important;
+  padding: 15px !important;
+  background: #03326c !important;
+  text-align: center !important;
+  font-size: 20px !important;
+}
+
+/* line 347, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-footer-copyright-area {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+/* line 352, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-button {
+  font-size: 16px;
+  font-family: ralewayreg !important;
+}
+
+/* line 357, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.button-card {
+  padding: 10px 40px !important;
+}
+
+/* line 361, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.wpcf7-form .wpcf7-mail-sent-ok {
+  background-color: #ddf1fd !important;
+  border: 1px solid #1d406f !important;
+  color: #2b2b2b !important;
+}
+
+/* line 367, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+textarea.wpcf7-form-control.wpcf7-textarea {
+  border: 1px solid #8b8b8b !important;
+  padding: 15px !important;
+  font-size: 14px !important;
+}
+
+/* line 373, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.wpcf7-form .wpcf7-text {
+  border-color: #8b8b8b !important;
+}
+
+/* line 377, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#popmake-536 .wpcf7-form input[type=submit] {
+  width: 100% !important;
+  background: #ef3f70;
+  border-radius: 20px !important;
+  padding: 13px !important;
+  font-size: 16px !important;
+}
+
+/* line 385, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.pum-theme-528 .pum-content + .pum-close,
+.pum-theme-default-theme .pum-content + .pum-close {
+  height: 35px !important;
+  width: 35px !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  right: -15px !important;
+  top: -17px !important;
+  line-height: unset !important;
+  border-radius: 50% !important;
+  background-color: #ef3f70 !important;
+}
+
+/* line 398, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.wpcf7-form input[type="submit"],
+.wpcf7-submit {
+  background: #ef3f70 !important;
+  border-radius: 20px !important;
+  padding: 10px 50px !important;
+}
+
+/* line 405, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.wpcf7-form input[type="submit"]:hover,
+.wpcf7-submit:hover {
+  background: #66a8d8 !important;
+}
+
+/* line 412, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.pum-theme-528 .pum-container,
+.pum-theme-default-theme .pum-container {
+  padding: 0 !important;
+  border-top: 5px solid #ef3f70 !important;
+  border-bottom: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+}
+
+/* line 421, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+img.fusion-standard-logo {
+  width: 180px !important;
+  height: auto !important;
+}
+
+/* line 426, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+a.mega-menu-link {
+  /*     font-family: ralewaysemi !important;  */
+  /*     color: #474747!important; */
+  /*font-size: 17px;*/
+}
+
+/* line 432, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-header .fusion-logo {
+  margin-top: 12px !important;
+  margin-bottom: unset !important;
+}
+
+/* line 437, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+div#sect-hero {
+  background-position-x: 105% !important;
+}
+
+/* line 441, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.mega-contact-us-CTA {
+  margin-left: 25px !important;
+}
+
+/* line 445, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.mega-contact-us-CTA a {
+  color: white;
+  background: #FF4181 !important;
+  padding: 12px 25px !important;
+  font-family: ralewaysemi;
+  border-radius: 7px !important;
+}
+
+/* line 453, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.mega-contact-us-CTA a:hover {
+  background: #66a8d8 !important;
+  color: white !important;
+  transition: all .1s ease-in-out;
+}
+
+/* line 459, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-secondary-menu-search {
+  display: none;
+}
+
+/* line 463, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+a.menu_cta,
+a.menu_cta2 {
+  color: white;
+  font-size: 16px;
+  background: #ef3f70;
+  padding: 10px 25px;
+  font-family: ralewaysemi;
+  border-radius: 25px;
+}
+
+/* line 473, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.menu_cta {
+  margin-right: 10px;
+}
+
+/* line 477, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+a.menu_cta:hover,
+a.menu_cta2:hover {
+  background: #66a8d8;
+  color: white;
+}
+
+/* line 483, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+a.menu_cta-2 {
+  color: white;
+  background: #ef3f70;
+  padding: 10px 25px;
+  font-family: ralewaysemi;
+  border-radius: 25px;
+  font-size: 17px;
+}
+
+/* line 492, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+a.menu_cta-2:hover {
+  background: #66a8d8;
+  color: white;
+}
+
+/* line 497, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-secondary-header {
+  display: none;
+}
+
+/* line 501, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-footer-widget-area {
+  border-top-width: 0 !important;
+}
+
+/* line 505, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-button {
+  font-family: ralewayreg;
+}
+
+/*Footer restyle*/
+/* line 512, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-footer-widget-area .widget-title {
+  color: #94caef !important;
+  font-size: 18px !important;
+  margin: 0 0 15px !important;
+  font-family: ralewayreg !important;
+  text-transform: unset !important;
+}
+
+/* line 520, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-social-networks-wrapper::before {
+  content: "Connect with us";
+  color: #9aaabd;
+  font-size: 14px;
+  font-family: ralewaylight;
+  margin-right: 10px;
+}
+
+/* line 528, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#main {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* line 533, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#mega-menu-wrap-main_navigation #mega-menu-main_navigation > li.mega-menu-item > a.mega-menu-link {
+  /* 	color: #212121 ; */
+}
+
+/*Max Mega Menu styling*/
+/* line 540, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+li#mega-menu-item-custom_html-8,
+li#mega-menu-item-custom_html-9,
+li#mega-menu-item-custom_html-10 {
+  padding-top: 0 !important;
+}
+
+/* line 546, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#mega-menu-wrap-main_navigation #mega-menu-main_navigation > li.mega-menu-megamenu > ul.mega-sub-menu {
+  width: 520px !important;
+}
+
+/* line 550, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+li#mega-menu-item-custom_html-12,
+li#mega-menu-item-custom_html-13 {
+  padding-top: 0px !important;
+}
+
+/* line 555, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+ul.mega-sub-menu {
+  padding: 5px 0 0 0 !important;
+}
+
+/* line 559, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#mega-menu-item-327 > ul {
+  border-top: solid 4px #83c5ec !important;
+  margin-top: 1px !important;
+}
+
+/* line 564, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.border-max {
+  border-right: 1px solid #e7e7e7 !important;
+}
+
+/* line 568, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+nav.fusion-mobile-nav-holder.fusion-mobile-menu-text-align-left.fusion-mobile-menu-expanded {
+  margin-top: -1px;
+}
+
+/* line 572, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-mobile-current-nav-item a {
+  color: #ef3f6e !important;
+  font-weight: 600 !important;
+}
+
+/* line 577, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-mobile-nav-item a {
+  color: #ffffff;
+  font-size: 15px !important;
+}
+
+/* line 582, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.full-image-hidden {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 587, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.full-image-hidden img {
+  width: 50%;
+}
+
+/* line 591, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#wrapper .fusion-vertical-menu-widget.left .menu > li > a:before {
+  content: ">";
+  margin-right: 7px;
+  color: #03326c;
+}
+
+/* line 597, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#wrapper .fusion-vertical-menu-widget.left .menu > li > a {
+  color: #03326c;
+}
+
+/* line 601, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#mega-menu-item-1225 > a,
+#mega-menu-item-1223 > a {
+  margin-right: 20px !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-left: 20px !important;
+  border-bottom: 1px solid #ccc !important;
+}
+
+/* line 610, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#mega-menu-item-1226 > a {
+  margin-right: 20px !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-left: 20px !important;
+}
+
+/* line 617, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#mega-menu-item-1222 > ul {
+  width: 200px !important;
+  left: 25px !important;
+  padding-bottom: 10px !important;
+  padding-top: 5px !important;
+}
+
+/* line 624, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#mega-menu-item-1226 > a {
+  border-bottom: none !important;
+}
+
+/* line 628, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-columns.fusion-columns-4.fusion-widget-area .fusion-column:nth-child(2):before {
+  content: '';
+  height: 125%;
+  border-left: 1px solid #2d588f !important;
+  position: absolute;
+  left: 0;
+  top: -14px;
+}
+
+/* line 637, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-columns.fusion-columns-4.fusion-widget-area .fusion-column:nth-child(1) {
+  width: 33% !important;
+}
+
+/* line 641, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-columns.fusion-columns-4.fusion-widget-area .fusion-column:nth-child(2),
+.fusion-columns.fusion-columns-4.fusion-widget-area .fusion-column:nth-child(3),
+.fusion-columns.fusion-columns-4.fusion-widget-area .fusion-column:nth-child(4) {
+  width: 22% !important;
+}
+
+/* line 647, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.fusion-columns.fusion-columns-4.fusion-widget-area .fusion-column:nth-child(2) {
+  padding-left: 40px;
+}
+
+/* line 651, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+li#mega-menu-item-custom_html-12 {
+  padding-right: 26px !important;
+}
+
+/* line 655, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+li#mega-menu-item-custom_html-13 {
+  padding-left: 26px !important;
+}
+
+/* line 659, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+li#mega-menu-item-custom_html-12,
+li#mega-menu-item-avada-vertical-menu-widget-2 {
+  border-right: solid 1px #ccc !important;
+}
+
+/* line 664, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+li#mega-menu-item-avada-vertical-menu-widget-2 {
+  padding-top: 0 !important;
+}
+
+/* line 668, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+li#menu-item-1235 {
+  display: block !important;
+  width: 100%;
+}
+
+/* line 673, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#wrapper .fusion-vertical-menu-widget .menu > li:first-child a:first-child {
+  padding-top: 0;
+}
+
+/* line 677, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#wrapper .fusion-vertical-menu-widget.left .menu > li > a {
+  padding: 0;
+}
+
+/* line 681, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#mega-menu-item-1224 > ul {
+  top: 85px !important;
+}
+
+/* line 685, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#mega-menu-item-1222 > ul {
+  top: 60px !important;
+}
+
+/* line 689, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+#mega-menu-wrap-main_navigation #mega-menu-main_navigation {
+  visibility: visible;
+  text-align: left;
+  padding: 15px 0px 15px 0px;
+}
+
+/* line 695, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.top_cta_mobile {
+  display: none;
+}
+
+/*div#mega-menu-wrap-mobile_navigation {
+      display: none !important;
+      visibility: unset !important;
+  }*/
+/* line 705, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.full-image-hidden {
+  display: none !important;
+}
+
+/* line 709, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.cta-footer-button {
+  text-align: right !important;
+}
+
+/* line 713, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+h2.entry-title {
+  margin-top: auto;
+  width: 550px;
+  color: #fff;
+  font-size: 30px !important;
+  font-family: ralewaylight;
+  font-weight: 400;
+  margin-bottom: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  /* line 724, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-text.access-our:before,
+  .fusion-text.understand:after,
+  .fusion-text.leverage:before {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  /* line 732, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-text.access-our:before,
+  .fusion-text.understand:after,
+  .fusion-text.leverage:before {
+    width: 165px;
+    top: 0px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* line 741, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .image-bottom {
+    display: none !important;
+  }
+  /* line 744, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .block-rad {
+    display: inline-block;
+    border-radius: 30px !important;
+    text-align: center;
+  }
+  /* line 749, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .single-post .fusion-flexslider.flexslider.post-slideshow.fusion-post-slideshow img {
+    margin-top: 0px !important;
+  }
+  /* line 752, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  li#mega-menu-1224-0-0 {
+    padding-bottom: 0px !important;
+    border-bottom: solid #ccc 1px !important;
+  }
+  /* line 756, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  li#mega-menu-item-avada-vertical-menu-widget-2 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  /* line 760, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-wrap-mobile_navigation #mega-menu-mobile_navigation > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link {
+    background: #fff !important;
+  }
+  /* line 763, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-wrap-mobile_navigation #mega-menu-mobile_navigation > li.mega-menu-item > a.mega-menu-link {
+    border-bottom: none;
+  }
+  /* line 766, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  li#mega-menu-item-custom_html-12 a,
+  li#mega-menu-item-custom_html-13 a {
+    padding-left: 10px;
+  }
+  /* line 770, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  li#mega-menu-item-avada-vertical-menu-widget-2 {
+    padding-left: 0 !important;
+  }
+  /* line 773, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #wrapper .fusion-vertical-menu-widget .menu li a {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+  }
+  /* line 777, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  li#mega-menu-item-custom_html-13 a {
+    padding-bottom: 0 !important;
+    border: none !important;
+  }
+  /*Re stlyle Menu*/
+  /* line 782, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-wrap-mobile_navigation #mega-menu-mobile_navigation > li.mega-menu-flyout ul.mega-sub-menu {
+    background: #fff !important;
+  }
+  /* line 785, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  li#mega-menu-item-custom_html-12 {
+    padding-bottom: 0 !important;
+  }
+  /* line 788, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-item-1222 > ul a.mega-menu-link {
+    color: #04326d !important;
+    padding-left: 40px !important;
+    border-bottom: 1px solid #ccc !important;
+  }
+  /* line 793, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #menu-intelegence-sub-menu-1 li {
+    list-style: none;
+  }
+  /* line 796, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  ul#menu-intelegence-sub-menu-1 {
+    padding-left: 0 !important;
+  }
+  /* line 799, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-wrap-mobile_navigation .mega-menu-toggle .mega-toggle-block-1:after {
+    top: 0;
+    left: 0;
+    margin: 0 0 0 20px !important;
+  }
+  /* line 804, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  ul#mega-menu-mobile_navigation {
+    margin-left: -30px !important;
+    padding-top: 20px !important;
+  }
+  /* line 808, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  div#mega-menu-wrap-mobile_navigation {
+    display: initial;
+  }
+  /* line 811, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-mobile-menu-icons {
+    display: none !important;
+  }
+  /* line 814, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  ul#mobile-menu-main-menus-1 {
+    padding-bottom: 20px;
+  }
+  /* line 817, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-logo a {
+    display: inline-block !important;
+  }
+  /* line 820, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .top_cta_mobile .textwidget.custom-html-widget {
+    display: grid;
+  }
+  /* line 823, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .top_cta_mobile {
+    margin-top: 20px;
+  }
+  /* line 826, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .mega-contact-us-CTA {
+    display: none !important;
+  }
+  /* line 829, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-logo {
+    display: inline-block;
+    max-width: 100%;
+    zoom: 1;
+  }
+  /* line 834, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-header-wrapper .fusion-row {
+    text-align: center;
+  }
+  /* line 837, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-wrap-mobile_navigation .menu-item-object-page a {
+    color: #04326d !important;
+  }
+  /*End*/
+  /* line 841, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .remove-margin-bottom {
+    margin-bottom: 0 !important;
+  }
+  /* line 844, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-text.access-our:before,
+  .fusion-text.understand:after,
+  .fusion-text.leverage:before {
+    display: none;
+  }
+  /* line 849, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .arrow-left,
+  .arrow-right {
+    display: none !important;
+  }
+  /* line 853, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .pods {
+    display: none !important;
+  }
+  /* line 856, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .styled-dots {
+    display: none !important;
+  }
+  /* line 859, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  h2.entry-title {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #fff;
+    font-size: 25px !important;
+    font-family: ralewaylight;
+    font-weight: 400;
+  }
+  /* line 867, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-wrap-mobile_navigation #mega-menu-mobile_navigation li.mega-menu-column {
+    border-right: none !important;
+  }
+  /* line 870, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-wrap-mobile_navigation #mega-menu-mobile_navigation > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link {
+    font-family: raleway !important;
+    color: #83C5EC !important;
+  }
+  /* line 874, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #footer-CTA {
+    display: none !important;
+  }
+  /* line 877, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .short_CTA {
+    display: unset !important;
+  }
+  /* line 880, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  span.wpcf7-form-control-wrap {
+    display: block !important;
+    width: 100% !important;
+  }
+  /* line 884, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .two-buttons {
+    display: none !important;
+  }
+  /* line 887, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .footer-cta-heading {
+    margin-bottom: 0 !important;
+  }
+  /* line 890, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .two-buttons .fusion-column-wrapper {
+    padding-top: 0 !important;
+  }
+  /* line 893, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-wrap-mobile_navigation .mega-menu-toggle {
+    display: inline-block !important;
+    position: initial;
+    width: 65px !important;
+  }
+  /* line 898, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-327-0-0,
+  #mega-menu-327-0-1 {
+    border-bottom: 1px solid #adadad !important;
+  }
+  /* line 902, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-secondary-main-menu {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  /* line 906, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  ul#mega-menu-mobile_navigation {
+    position: initial !important;
+    padding-bottom: 0 !important;
+  }
+  /* line 910, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .mega-menu-toggle {
+    position: absolute;
+    top: -115px !important;
+    right: 25px;
+  }
+  /* line 915, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  span.mega-toggle-label {
+    display: none;
+  }
+  /* line 919, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-wrap-mobile_navigation #mega-menu-mobile_navigation > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link {
+    /*font-weight: 600;*/
+  }
+  /* line 922, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-mobile-menu-custom {
+    position: absolute;
+    top: 0;
+    right: -10px;
+  }
+  /* line 927, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  div#sect-hero {
+    background-image: url(/wp-content/uploads/2019/07/CTA_strip_dots_graphics.svg) !important;
+    background-position: right bottom !important;
+  }
+  /*.fusion-secondary-main-menu {
+      position: fixed !important;
+      top: 154px !important;
+     z-index: -9999 !important; 
+  }	*/
+  /* line 936, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .menu_cta {
+    white-space: nowrap;
+    margin-right: 0 !important;
+    position: absolute;
+    left: -30px !important;
+    text-align: center;
+    width: calc(50% + 25px) !important;
+    border-radius: 0 20px 20px 0 !important;
+  }
+  /* line 945, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .menu_cta2 {
+    white-space: nowrap;
+    position: absolute;
+    border-radius: 20px 0 0 20px !important;
+    right: -30px !important;
+    width: calc(50% + 25px) !important;
+    text-align: center;
+  }
+  /* line 953, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-header-content-3-wrapper {
+    position: relative !important;
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+  /* line 958, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-header {
+    overflow: hidden;
+  }
+  /* line 961, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-header {
+    border-bottom: unset !important;
+  }
+}
+
+/*contact form styling*/
+/* line 969, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #6e6e6e !important;
+  opacity: 1;
+  /* Firefox */
+}
+
+/* line 976, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #6e6e6e !important;
+}
+
+/* line 981, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #6e6e6e !important;
+}
+
+/* line 986, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.custInput {
+  font-family: ralewayreg;
+  margin-bottom: 15px;
+  padding: 15px;
+  color: #333 !important;
+  font-size: 14px !important;
+}
+
+/* line 994, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+input.wpcf7-form-control.wpcf7-submit {
+  color: white;
+  padding: 13px 50px !important;
+  background-color: #ef3f70;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+/* line 1002, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+input.wpcf7-form-control.wpcf7-submit:hover {
+  color: white;
+  background-color: #f3618a;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+/* line 1009, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+textarea.wpcf7-form-control.wpcf7-textarea {
+  font-family: ralewayreg;
+  color: #000 !important;
+}
+
+/* line 1014, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.pum-theme-528 .pum-content + .pum-close,
+.pum-theme-default-theme .pum-content + .pum-close {
+  font-size: 12px;
+  line-height: 15px;
+  background-color: #ef3f70;
+}
+
+/* line 1021, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.bannerP {
+  font-weight: 400 !important;
+}
+
+/*mobile responsive CSS queries*/
+/*Desktop above Avada CSS breakpoint*/
+@media only screen and (min-width: 801px) {
+  /* line 1032, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-main-menu .sub-menu {
+    background-color: #f2efef;
+    width: 220px !important;
+  }
+  /* line 1036, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .mega-contact-us-CTA {
+    padding-right: 0 !important;
+  }
+  /* line 1039, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #pods-slider,
+  .slider-pods {
+    display: none !important;
+  }
+  /* line 1043, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-header-wrapper.fusion-is-sticky .fusion-secondary-main-menu {
+    background-color: #ffffff !important;
+  }
+  /* line 1046, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  li#mega-menu-item-custom_html-7 {
+    padding-left: 10px !important;
+  }
+  /* line 1049, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  li#mega-menu-item-custom_html-8 {
+    padding-left: 10px !important;
+    padding-right: 20px !important;
+    padding-bottom: 10px !important;
+  }
+  /* line 1054, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  li#mega-menu-item-media_image-2,
+  li#mega-menu-item-media_image-3 {
+    padding-top: 5px !important;
+  }
+  /* line 1058, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  li#mega-menu-item-custom_html-7 {
+    padding-top: 0 !important;
+  }
+  /* line 1061, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  li#mega-menu-item-custom_html-10,
+  li#mega-menu-item-media_image-3 {
+    padding-left: 25px !important;
+    padding-right: 17px !important;
+    padding-right: 17px !important;
+  }
+  /* line 1067, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  li#mega-menu-327-0-0 {
+    border-right: 1px solid #cccccc !important;
+  }
+  /* line 1070, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .styled-dots {
+    width: 165px !important;
+    top: -45px !important;
+    right: -155px !important;
+    position: absolute !important;
+  }
+  /* line 1076, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  section#custom_html-4:after {
+    content: "";
+    border-right: 1px solid #4f7098;
+    position: absolute;
+    height: 210px;
+    top: -15px;
+    right: 50px;
+  }
+  /* line 1085, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .cta-footer-button .fusion-column-wrapper {
+    display: flex;
+    float: right;
+  }
+  /* line 1089, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-item-media_image-2,
+  #mega-menu-item-custom_html-9 {
+    padding-right: 10px !important;
+    padding-left: 30px !important;
+  }
+  /* line 1094, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #footer-CTA div > a:nth-child(3) {
+    margin-right: 0 !important;
+  }
+  /* line 1097, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  span.mega-indicator {
+    display: none !important;
+  }
+  /* line 1100, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-item-45 > a {
+    padding-left: 0 !important;
+  }
+  /* line 1103, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-wrap-main_navigation #mega-menu-main_navigation > li.mega-menu-megamenu > ul.mega-sub-menu {
+    left: 30px !important;
+    padding-bottom: 15px !important;
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+    padding-top: 0px !important;
+  }
+  /* line 1110, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-button {
+    font-size: 16px !important;
+    font-family: ralewayreg !important;
+  }
+  /* line 1114, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .mobile-inline-cta {
+    display: none !important;
+  }
+  /* line 1117, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-wrap-mobile_navigation {
+    display: none !important;
+  }
+  /* line 1120, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  a.mega-menu-link {
+    padding: 0 29px !important;
+  }
+  /* line 1123, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-item-1232 > a {
+    padding: 0 25px !important;
+  }
+  /* line 1126, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .blueP {
+    font-size: 25px !important;
+    font-family: ralewayreg;
+  }
+  /* line 1130, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .bannerP {
+    font-size: 30px;
+    font-family: ralewayreg;
+  }
+  /* line 1134, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .sizeH1 {
+    font-size: 35px !important;
+    font-family: ralewaymed;
+  }
+  /* line 1138, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .home .bannerP {
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-size: 60px !important;
+    font-family: ralewaylight !important;
+  }
+  /* line 1147, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .sizeH2 {
+    font-size: 30px !important;
+    font-family: ralewaymed !important;
+    margin-bottom: 20px;
+  }
+  /* line 1152, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .sizeH3 {
+    font-size: 25px !important;
+    margin-top: 5px;
+    font-family: ralewayreg;
+  }
+  /* line 1157, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .sizeH4 {
+    font-size: 18px !important;
+    font-family: ralewayreg;
+  }
+  /* line 1161, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .sizeH5 {
+    font-size: 16px !important;
+    font-family: ralewayreg;
+  }
+  /* line 1165, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .sizeP {
+    font-size: 18px !important;
+    font-family: ralewayreg;
+  }
+}
+
+/*Tablet Avada CSS breakpoint*/
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  /* line 1175, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .blueP {
+    font-size: 20px;
+  }
+  /* line 1178, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .sizeH1 {
+    font-size: 30px !important;
+  }
+  /* line 1181, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .home .sizeH1 {
+    font-size: 30px !important;
+  }
+  /* line 1184, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .sizeH2 {
+    font-size: 25px !important;
+  }
+  /* line 1187, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .sizeH3 {
+    font-size: 22px !important;
+  }
+  /* line 1190, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .sizeH4 {
+    font-size: 18px !important;
+  }
+  /* line 1193, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .sizeH5 {
+    font-size: 14px !important;
+  }
+  /* line 1196, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .sizeP {
+    font-size: 17px !important;
+  }
+}
+
+/*Tablet below CSS break point*/
+@media only screen and (max-width: 800px) {
+  /* line 1205, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-columns.fusion-columns-4.fusion-widget-area .fusion-column:nth-child(4) {
+    padding-top: 15px;
+  }
+  /* line 1208, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  ul.sub-menu.fusion-sub-menu-open {
+    background: #fff;
+  }
+  /* line 1211, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-mobile-menu-design-modern .fusion-mobile-menu-text-align-left li.fusion-mobile-nav-item li a {
+    padding-left: 39px;
+    color: #04326D;
+  }
+  /* line 1215, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-sub-menu-open a {
+    border-bottom: #ccc solid 1px !important;
+  }
+  /* line 1218, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-open-submenu:before {
+    display: none;
+  }
+  /* line 1221, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .center-text {
+    text-align: center !important;
+  }
+  /* line 1224, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #atf-sect-col {
+    margin-bottom: 0;
+  }
+  /* line 1227, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  section#custom_html-6 {
+    padding-top: 17px;
+  }
+  /* line 1236, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .long_CTA {
+    display: none !important;
+  }
+  /* line 1239, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #sect-hero > div > div.fusion-layout-column.fusion_builder_column.fusion_builder_column_1_2.fusion-builder-column-6.fusion-one-half.fusion-column-last.\31 _2 > div > div.fusion-builder-row.fusion-builder-row-inner.fusion-row > div.fusion-layout-column.fusion_builder_column.fusion_builder_column_1_2.fusion-one-half.fusion-column-first.\31 _2 > div > div {
+    margin-bottom: 0 !important;
+  }
+  /* line 1242, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .full-width-resp {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  /* line 1246, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .center-blurbs .fusion_builder_column_1_6 {
+    margin-bottom: 0 !important;
+  }
+  /* line 1249, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .bannerP {
+    font-size: 30px;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  /* line 1254, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .center-blurbs {
+    text-align: center;
+  }
+  /* line 1257, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  div#pink {
+    margin-top: -50px !important;
+  }
+  /* line 1260, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  div#blue {
+    margin-top: 15px !important;
+  }
+  /* line 1263, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #atf-sect-col h1 {
+    padding: 0px !important;
+  }
+  /* line 1266, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #atf-sect {
+    padding-top: 50px !important;
+    padding-bottom: 80px !important;
+  }
+  /* line 1270, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #pink:nth-child(2) .fusion-column-wrapper {
+    margin-top: 40px;
+  }
+  /* line 1273, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #cta-button-col .fusion-column-wrapper {
+    padding-top: 0 !important;
+  }
+  /* line 1276, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .card-text {
+    padding: 0 20px 0 20px;
+  }
+  /* line 1279, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .temp-cust-logo {
+    text-align: center;
+  }
+}
+
+/*Tablet and above CSS*/
+@media only screen and (min-width: 601px) {
+  /* line 1288, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #mega-menu-wrap-mobile_navigation {
+    /*  display:none !important*/
+  }
+}
+
+/*Mobile Avada CSS breakpoint*/
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+  /* line 1297, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .separator-row-padding-remove,
+  .separator-row-padding-remove .fusion-column-wrapper {
+    padding: 0 !important;
+  }
+  /* line 1301, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .padding-top-remove {
+    padding-top: 0 !important;
+  }
+  /* line 1304, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-button {
+    padding: 9px 40px !important;
+  }
+  /* line 1307, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  a.menu_cta,
+  a.menu_cta2 {
+    color: white;
+    font-size: 14px;
+    background: #ef3f70;
+    padding: 8px 25px;
+    font-family: ralewaysemi;
+    border-radius: 25px;
+  }
+  /* line 1316, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .sizeH2 {
+    font-size: 22px !important;
+  }
+  /* line 1319, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .logos img {
+    height: 20px !important;
+    width: auto;
+  }
+  /* line 1324, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  #post-378 > div > div:nth-child(1) > div > div > div {
+    padding: 20px 0 0 0 !important;
+  }
+  /* line 1327, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .blueP {
+    font-size: 17px;
+  }
+  /* line 1330, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .sizeH1 {
+    font-size: 24px !important;
+  }
+  /* line 1333, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .bannerP {
+    font-size: 25px;
+  }
+}
+
+/*global class reusable*/
+/* line 1352, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.center-content {
+  text-align: center;
+}
+
+/* line 1356, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+a:hover {
+  color: #0f6fbd;
+}
+
+/* line 1360, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+.blueP,
+.bannerP,
+.sizeH1,
+.home .sizeH1,
+.sizeP,
+.sizeH3,
+.sizeH4,
+.sizeH5 {
+  font-family: ralewayreg !important;
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1023px) {
+  /* line 1372, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  a.mega-menu-link {
+    padding: 0 15px !important;
+    font-size: 15px !important;
+  }
+  /* line 1376, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .home .bannerP {
+    font-weight: 400;
+    line-height: 1.3em;
+    font-size: 45px !important;
+    font-family: ralewaylight !important;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 978px) {
+  /* line 1385, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  a.menu_cta-2 {
+    padding: 10px 15px !important;
+    font-size: 17px !important;
+  }
+}
+
+@media only screen and (max-device-width: 640px) {
+  /* line 1392, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  img.fusion-standard-logo {
+    width: 210px !important;
+    height: auto !important;
+  }
+  /* line 1396, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-icon-bars:before {
+    width: 30px !important;
+  }
+  /* line 1399, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-columns .fusion-column {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-device-width: 385px) {
+  /* line 1406, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  img.fusion-standard-logo {
+    width: 190px !important;
+    height: auto !important;
+  }
+  /* line 1410, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-icon-bars:before {
+    width: 27px !important;
+  }
+  /* line 1413, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_style.scss */
+  .fusion-mobile-menu-icons a {
+    margin-left: 10px !important;
+  }
+}
+
+/* Button */
+/* ----- Tablet and desktop ----*/
+/* line 5, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_search.scss */
+.searchform .fusion-search-form-content .search-field input[type="text"] {
+  border: 1px solid #DADADA;
+  border-radius: 3px;
+  padding: 10px 15px;
+  height: 40px;
+  font-size: 14px;
+  font-family: 'raleway';
+}
+
+/* line 12, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_search.scss */
+.searchform .fusion-search-form-content .search-field input[type="text"]::fusion-search-field {
+  color: #DADADA;
+  font-family: 'raleway';
+  font-size: 12px;
+}
+
+/* line 17, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_search.scss */
+.searchform .fusion-search-form-content .search-field input[type="text"]::-webkit-input-placeholder {
+  color: #DADADA;
+  font-family: 'raleway';
+  font-size: 12px;
+}
+
+/* line 24, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_search.scss */
+.searchform .fusion-search-form-content .fusion-search-button {
+  position: relative;
+}
+
+/* line 26, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_search.scss */
+.searchform .fusion-search-form-content .fusion-search-button input[type="submit"] {
+  border-radius: 0 10px 10px 0;
+  width: 85px !important;
+  height: 40px !important;
+  background-color: #FF4181;
+  color: #fff !important;
+  font-size: 19px !important;
+}
+
+/* line 34, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_search.scss */
+.searchform .fusion-search-form-content .fusion-search-button input[type="submit"]:hover {
+  background-color: #f1aac2 !important;
+}
+
+/* line 1, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-meta-box.scss */
+.fusion-post-wrapper {
+  /* Author profile style ========= */
+}
+
+/* line 2, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-meta-box.scss */
+.fusion-post-wrapper .date-container {
+  font-size: 13px;
+  color: #4C4C4C;
+  font-family: Raleway;
+  margin-bottom: 5px;
+}
+
+/* line 9, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-meta-box.scss */
+.fusion-post-wrapper .author-container {
+  display: flex;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+
+/* line 14, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-meta-box.scss */
+.fusion-post-wrapper .author-container .avatar img {
+  width: 42px;
+  height: 42px;
+}
+
+/* line 19, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-meta-box.scss */
+.fusion-post-wrapper .author-container .avatar-name {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  padding: 14px 10px;
+}
+
+/* line 25, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-meta-box.scss */
+.fusion-post-wrapper .author-container .avatar-name a,
+.fusion-post-wrapper .author-container .avatar-name a:hover,
+.fusion-post-wrapper .author-container .avatar-name a:active,
+.fusion-post-wrapper .author-container .avatar-name a:visited {
+  color: #1C2F5E;
+}
+
+/* Read Meater style ========== */
+/* line 38, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-meta-box.scss */
+.bsf-rt-reading-time {
+  border-radius: 5px;
+  background-color: #f4f7fe !important;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'ralewaylight';
+  position: absolute;
+  bottom: 15px;
+  padding: 4px 5px !important;
+}
+
+/* line 49, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-meta-box.scss */
+.nsfp_featured_post_widget .bsf-rt-reading-time,
+.fusion-tab-popular .bsf-rt-reading-time {
+  display: none;
+}
+
+@media only screen and (min-width: 800px) {
+  /* line 55, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-meta-box.scss */
+  .fusion-post-wrapper {
+    /* Author profile style ========= */
+  }
+  /* line 58, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-meta-box.scss */
+  .fusion-post-wrapper .author-container {
+    margin-bottom: 35px;
+  }
+  /* Read Meater style ========== */
+}
+
+/* line 3, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper {
+  margin-top: 40px;
+  box-shadow: 0 0 24px 4px rgba(28, 47, 94, 0.1);
+  border-radius: 7px;
+  position: relative;
+  /* post content*/
+}
+
+/* line 8, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-flexslider {
+  /* Post images*/
+  min-height: 150px;
+  max-height: 150px;
+  overflow: hidden;
+}
+
+/* line 15, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-flexslider .slides {
+  position: absolute;
+  height: 100%;
+  width: 108%;
+  left: -4%;
+}
+
+/* line 20, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-flexslider .slides li {
+  height: 100%;
+  -webkit-transition: all 1s !important;
+}
+
+/* line 27, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-flexslider .slides li .fusion-image-wrapper {
+  width: 140%;
+}
+
+/* line 30, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-flexslider .slides li .fusion-image-wrapper a img {
+  height: 100%;
+  width: 150%;
+}
+
+/* line 40, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-post-content-wrapper {
+  background-color: #fff;
+}
+
+/* line 43, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-post-content-wrapper .fusion-post-content .bsf-rt-reading-time {
+  position: absolute;
+  bottom: 27px;
+  right: 15px !important;
+}
+
+/* line 53, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-post-content-wrapper .post-content .blog-shortcode-post-title {
+  max-height: 60px;
+  min-height: 60px;
+  margin-top: 0;
+}
+
+/* line 57, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-post-content-wrapper .post-content .blog-shortcode-post-title a {
+  color: #1C2F5E;
+  font-family: Ralewaybold;
+  font-size: 16px;
+  line-height: 20px !important;
+  max-height: 60px !important;
+  display: block;
+  overflow: hidden;
+}
+
+/* line 67, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-post-content-wrapper .post-content .fusion-single-line-meta {
+  position: absolute;
+  top: 0;
+  left: 22px;
+  display: block;
+  padding: 2px 6px;
+  background-color: #FF4181;
+  z-index: 3;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+  color: #fff;
+}
+
+/* line 78, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-post-content-wrapper .post-content .fusion-single-line-meta a {
+  color: #fff;
+  font-family: ralewaymed;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-size: 10px;
+}
+
+/* line 84, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-post-content-wrapper .post-content .fusion-single-line-meta a:hover {
+  color: #fff !important;
+  border-bottom: 1px solid #f1aac2;
+}
+
+/* line 90, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-post-content-wrapper .post-content .fusion-single-line-meta span:nth-last-of-type(3) {
+  display: none;
+}
+
+/* line 94, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-post-content-wrapper .post-content .fusion-single-line-meta .date {
+  display: none;
+}
+
+/* line 97, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-post-content-wrapper .post-content .fusion-single-line-meta .updated {
+  display: none;
+}
+
+/* line 100, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+.fusion-post-grid .fusion-post-wrapper .fusion-post-content-wrapper .post-content .fusion-single-line-meta .category-container {
+  position: initial !important;
+}
+
+/* line 110, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+#main .fusion-columns {
+  box-shadow: 0 0 24px 4px rgba(28, 47, 94, 0.1);
+  border-radius: 7px;
+}
+
+/* line 113, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+#main .fusion-columns .post {
+  padding: 0;
+}
+
+/* line 115, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+#main .fusion-columns .post .recent-posts-content {
+  padding: 0 30px 30px;
+}
+
+/* line 118, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+#main .fusion-columns .post .recent-posts-content .entry-title a {
+  color: #1C2F5E;
+  font-family: Ralewaybold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+/* line 126, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+#main .fusion-columns .post .recent-posts-content p:last-child {
+  font-size: 16px;
+  max-height: 22px;
+  overflow: hidden;
+  padding: 0;
+}
+
+@media only screen and (min-width: 800px) {
+  /* line 140, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+  .fusion-post-grid .fusion-post-wrapper {
+    margin-top: 40px;
+    border-radius: 7px;
+    position: relative;
+  }
+  /* line 144, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+  .fusion-post-grid .fusion-post-wrapper .fusion-flexslider {
+    /* Post images*/
+    overflow: hidden;
+  }
+  /* line 153, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+  .fusion-post-grid .fusion-post-wrapper .fusion-flexslider .slides li .fusion-image-wrapper {
+    width: 130%;
+    left: calc(50% - 179px);
+  }
+  /* line 162, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+  .fusion-post-grid .fusion-post-wrapper .fusion-post-content-wrapper .fusion-post-content .bsf-rt-reading-time {
+    bottom: 17px;
+    right: unset;
+    left: 15px;
+  }
+  /* line 172, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+  .fusion-post-grid .fusion-post-wrapper .fusion-post-content-wrapper .fusion-post-content .post-content .blog-shortcode-post-title a {
+    font-size: 16px;
+  }
+  /* line 176, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-item.scss */
+  .fusion-post-grid .fusion-post-wrapper .fusion-post-content-wrapper .fusion-post-content .post-content .fusion-single-line-meta {
+    position: absolute;
+  }
+}
+
+/* line 1, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts {
+  margin: 20px 0 80px;
+}
+
+/* line 4, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-title h2,
+.related-posts .fusion-title .title-heading-left {
+  color: #1C2F5E !important;
+  font-family: ralewaybold !important;
+  font-size: 26px !important;
+  letter-spacing: 0.26px;
+  line-height: 31px;
+}
+
+/* line 12, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-title .title-sep {
+  display: none;
+}
+
+/* line 18, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* line 24, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item {
+  width: 100%;
+  box-shadow: 0 0 24px 4px rgba(28, 47, 94, 0.1);
+  border-radius: 7px;
+  margin-bottom: 30px;
+}
+
+/* line 30, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item:nth-child(1) {
+  margin-top: 0;
+}
+
+/* line 33, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item:nth-child(2) {
+  margin-top: 0;
+}
+
+/* line 36, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper {
+  position: relative;
+  background-color: #fff;
+}
+
+/* line 39, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .category {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  display: block;
+  padding: 6px 10px;
+  background-color: #FF4181;
+  z-index: 3;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+}
+
+/* line 49, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .category .fusion-meta-info {
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+/* line 53, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .category .fusion-meta-info .fusion-meta-info-wrapper {
+  position: relative;
+}
+
+/* line 55, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .category .fusion-meta-info .fusion-meta-info-wrapper a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+/* line 60, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .category .fusion-meta-info .fusion-meta-info-wrapper .date {
+  display: none;
+}
+
+/* line 64, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .category .fusion-meta-info .fusion-meta-info-wrapper .category-container a {
+  color: #fff;
+  font-family: ralewaymed;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-size: 10px;
+}
+
+/* line 70, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .category .fusion-meta-info .fusion-meta-info-wrapper .category-container a:hover {
+  color: #fff !important;
+  border-bottom: 1px solid #f1aac2;
+}
+
+/* line 79, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .fusion-image-wrapper {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  min-height: 150px;
+}
+
+/* line 83, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .fusion-image-wrapper a {
+  width: 158%;
+  position: absolute;
+  left: -29px;
+}
+
+/* line 89, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .fusion-carousel-title {
+  padding: 10px 12px;
+  overflow: hidden;
+  line-height: 18px !important;
+  margin-top: 0;
+}
+
+/* line 96, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .fusion-carousel-title a {
+  color: #1C2F5E;
+  font-family: Ralewaybold;
+  font-size: 16px;
+  line-height: 24px !important;
+  margin-bottom: 36px;
+  display: block;
+}
+
+/* line 103, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .fusion-carousel-title a .bsf-rt-reading-time {
+  bottom: 0;
+}
+
+/* line 108, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+.related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .fusion-carousel-meta {
+  display: none;
+}
+
+/* ----- Tablet and desktop ----*/
+@media only screen and (min-width: 800px) {
+  /* line 131, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+  .related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item {
+    width: 32%;
+    margin-top: 0;
+  }
+  /* line 135, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+  .related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .fusion-carousel-title {
+    position: relative;
+  }
+  /* line 137, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+  .related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .fusion-carousel-title a {
+    position: initial;
+    max-height: 72px;
+    overflow: hidden;
+  }
+  /* line 148, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_related_post.scss */
+  .related-posts .fusion-carousel-container .fusion-carousel-positioner .fusion-carousel-holder .fusion-carousel-item .fusion-carousel-item-wrapper .category .fusion-meta-info .fusion-meta-info-wrapper .category-container a {
+    font-size: 10px;
+  }
+}
+
+/* line 1, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_featured-post.scss */
+.blog-landing-sidebar {
+  margin-top: 20px;
+}
+
+/* line 3, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_featured-post.scss */
+.blog-landing-sidebar h4,
+.blog-landing-sidebar h3 {
+  color: #FF4181 !important;
+  font-family: Ralewaybold !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+  text-align: left;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+/* line 12, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_featured-post.scss */
+.blog-landing-sidebar h4:before,
+.blog-landing-sidebar h3:before {
+  content: url(https://www.intelematics.com/wp-content/themes/Avada-Child-Theme/icons/IconsEditors-Pick.svg);
+  color: #FF4181;
+  float: left;
+  padding-right: 10px;
+  display: block;
+  margin-top: 2px;
+}
+
+/* line 21, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_featured-post.scss */
+.blog-landing-sidebar ul.featured-post {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 24, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_featured-post.scss */
+.blog-landing-sidebar ul.featured-post li {
+  border-bottom: 1px solid #DADADA !important;
+  padding: 10px 0px;
+  max-height: 70px;
+}
+
+/* line 28, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_featured-post.scss */
+.blog-landing-sidebar ul.featured-post li a {
+  color: #1C2F5E;
+  font-family: Ralewaybold;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+  max-height: 45px;
+  overflow: hidden;
+  display: block;
+}
+
+/* line 40, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_featured-post.scss */
+.blog-landing-sidebar .bsf-rt-reading-time {
+  display: none !important;
+}
+
+/* line 1, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_popular_item.scss */
+.fusion-tabs-widget {
+  margin-bottom: 60px;
+}
+
+/* line 6, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_popular_item.scss */
+.fusion-tabs-widget-wrapper .fusion-tabs-nav {
+  margin-bottom: 0 !important;
+  display: flex;
+}
+
+/* line 9, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_popular_item.scss */
+.fusion-tabs-widget-wrapper .fusion-tabs-nav:before {
+  font-family: icomoon;
+  content: url(https://www.intelematics.com/wp-content/themes/Avada-Child-Theme/icons/IconsStar.svg);
+  color: #FF4181;
+  float: left;
+  margin-top: 2px;
+}
+
+/* line 16, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_popular_item.scss */
+.fusion-tabs-widget-wrapper .fusion-tabs-nav ul {
+  border: none !important;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding: 1px 0 0 5px;
+}
+
+/* line 23, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_popular_item.scss */
+.fusion-tabs-widget-wrapper .fusion-tabs-nav ul li a {
+  color: #FF4181;
+  font-family: Ralewaybold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  padding: 0 !important;
+}
+
+/* line 32, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_popular_item.scss */
+.fusion-tabs-widget-wrapper .fusion-tabs-nav ul li.active a {
+  color: #FF4181 !important;
+  font-family: Ralewaybold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  padding-top: 0;
+}
+
+/* line 46, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_popular_item.scss */
+.fusion-tabs-widget-wrapper .tabs-container .fusion-tab-popular ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+/* line 50, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_popular_item.scss */
+.fusion-tabs-widget-wrapper .tabs-container .fusion-tab-popular ul li {
+  border-bottom: 1px solid #DADADA !important;
+  padding: 10px 0 20px;
+}
+
+/* line 53, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_popular_item.scss */
+.fusion-tabs-widget-wrapper .tabs-container .fusion-tab-popular ul li .image {
+  display: none;
+}
+
+/* line 57, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_popular_item.scss */
+.fusion-tabs-widget-wrapper .tabs-container .fusion-tab-popular ul li .post-holder a {
+  color: #1C2F5E;
+  font-family: Ralewaybold;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+  max-height: 44px;
+  overflow: hidden;
+  display: block;
+}
+
+/* line 67, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_popular_item.scss */
+.fusion-tabs-widget-wrapper .tabs-container .fusion-tab-popular ul li .post-holder .fusion-meta {
+  display: none;
+}
+
+/* line 1, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_newsletter.scss */
+.newsletter-container {
+  margin: 0 -30px;
+  padding: 50px 30px 0 30px;
+  background-image: url(../images/img-Bg-Asure.png);
+  background-size: 116%;
+  background-position-x: 0;
+  background-position-y: 10px !important;
+  background-repeat: no-repeat;
+}
+
+/* line 9, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_newsletter.scss */
+.newsletter-container .fusion-column-wrapper {
+  margin: 0 30px;
+  padding: 0 30px !important;
+}
+
+/* line 13, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_newsletter.scss */
+.newsletter-container .fusion-column-wrapper .fusion-text h2 {
+  color: #1C2F5E;
+  font-family: ralewaybold !important;
+  font-size: 30px !important;
+  line-height: 38px !important;
+  margin-bottom: 0;
+  margin-top: 72px;
+}
+
+/* line 21, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_newsletter.scss */
+.newsletter-container .fusion-column-wrapper .fusion-text h6 {
+  margin: 15px 0 0;
+}
+
+/* line 25, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_newsletter.scss */
+.newsletter-container .fusion-column-wrapper iframe {
+  margin-left: -15px;
+}
+
+/* ----- Tablet and desktop ----*/
+@media only screen and (min-width: 800px) {
+  /* line 35, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_newsletter.scss */
+  .newsletter-container {
+    background-size: 91%;
+    background-position-x: 36px;
+    min-height: 474px;
+    max-width: 540px;
+  }
+  /* line 41, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_newsletter.scss */
+  .newsletter-container.align-center {
+    margin: auto;
+  }
+  /* line 44, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_newsletter.scss */
+  .newsletter-container .fusion-column-wrapper {
+    padding: 0 !important;
+    margin: 0;
+  }
+  /* line 48, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_newsletter.scss */
+  .newsletter-container .fusion-column-wrapper .fusion-text h2 {
+    margin-top: 34px;
+    font-size: 30px !important;
+    max-width: 320px;
+  }
+  /* line 53, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_newsletter.scss */
+  .newsletter-container .fusion-column-wrapper .fusion-text h6 {
+    margin: 15px 0 0;
+    max-width: 320px;
+    font-size: 15px;
+    color: #606D8E;
+  }
+  /* line 60, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_newsletter.scss */
+  .newsletter-container .fusion-column-wrapper iframe {
+    margin-left: -15px;
+  }
+}
+
+/* line 1, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+.filter-lable {
+  display: inline-block;
+  font-size: 14px;
+  color: #1D305D;
+  margin-right: 10px;
+}
+
+/* line 8, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+.searchandfilter {
+  display: inline-block;
+}
+
+/* line 11, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+.searchandfilter div ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 14, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+.searchandfilter div ul li {
+  border: 2px solid #1C2F5E;
+  border-radius: 5px;
+  padding: 2px 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* line 20, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+.searchandfilter div ul li:last-of-type {
+  border: none;
+  padding: 0;
+}
+
+/* line 23, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+.searchandfilter div ul li:last-of-type input {
+  width: 100%;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #FF4181;
+  border: none;
+  border-radius: 5px;
+  font-family: ralewaybold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* line 35, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+.searchandfilter div ul li select {
+  border: none;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 700;
+  color: #1C2F5E;
+  width: 100%;
+}
+
+/* filter mobile view styling*/
+/* line 52, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+.blog-filter {
+  border: 2px solid #1C2F5E;
+  border-radius: 5px;
+  padding: 5px 12px;
+  margin-bottom: 10px;
+}
+
+/* line 58, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+.blog-filter .toggle-content {
+  padding: 0px !important;
+}
+
+/* line 65, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+.blog-filter .fusion-accordian .panel-title a .fa-fusion-box:before {
+  content: url(https://www.intelematics.com/wp-content/themes/Avada-Child-Theme/icons/IconsTriangle.svg) !important;
+  color: #FF4181;
+  float: left;
+  right: 0 !important;
+}
+
+/* line 74, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+.blog-filter .fusion-accordian .panel-title a.active .fa-fusion-box:before {
+  transform: rotate(180deg) !important;
+}
+
+/* line 82, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+.blog-filter .fusion-accordian .fusion-toggle-icon-wrapper .fusion-toggle-heading {
+  color: #1C2F5E;
+  text-transform: uppercase;
+}
+
+/* line 87, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+.blog-filter .fusion-accordian .fusion-toggle-icon-wrapper .fa-fusion-box:before {
+  transform: rotate(0);
+}
+
+/* ----- Tablet and desktop ----*/
+@media only screen and (min-width: 800px) {
+  /* line 102, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+  .searchandfilter div ul li {
+    max-width: 230px;
+    width: auto;
+    margin-right: 15px;
+  }
+  /* line 107, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+  .searchandfilter div ul li:last-of-type input {
+    max-width: 100px;
+  }
+  /* line 111, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_post-filters.scss */
+  .searchandfilter div ul li select {
+    width: 110px;
+  }
+}
+
+/* common and mobile styling */
+/* line 3, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_author-social-icons.scss */
+.author-social-profile {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+/* line 9, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_author-social-icons.scss */
+.author-social-profile a:before {
+  width: 30px;
+  height: 30px;
+  font-family: icomoon;
+  color: #1C2F5E;
+  padding: 10px;
+}
+
+/* line 17, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_author-social-icons.scss */
+.author-social-profile a.facebook:before {
+  content: "\e604";
+}
+
+/* line 22, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_author-social-icons.scss */
+.author-social-profile a.linkedin:before {
+  content: "\e60f";
+}
+
+/* line 27, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_author-social-icons.scss */
+.author-social-profile a.twitter:before {
+  content: "\e605";
+}
+
+/* line 32, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_author-social-icons.scss */
+.author-social-profile a.dribble:before {
+  content: "\e609";
+}
+
+/* line 37, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_author-social-icons.scss */
+.author-social-profile a.medium:before {
+  content: url(https://www.intelematics.com/wp-content/themes/Avada-Child-Theme/icons/iconMedium.svg);
+}
+
+/* Tablet and desktop styling */
+@media only screen and (min-width: 800px) {
+  /* line 48, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_author-social-icons.scss */
+  .author-social-profile {
+    padding-left: 0;
+    justify-content: flex-start;
+  }
+  /* line 53, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_author-social-icons.scss */
+  .author-social-profile a:first-child:before {
+    padding-left: 0;
+  }
+}
+
+/* line 1, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_wpum-post.scss */
+.post-container {
+  max-width: 940px;
+  margin: 0px 20px 60px;
+}
+
+/* line 4, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_wpum-post.scss */
+.post-container h3 {
+  font-family: Ralewaybold !important;
+  line-height: 38px;
+}
+
+/* line 9, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_wpum-post.scss */
+.post-container #profile-posts {
+  display: block;
+  flex-wrap: wrap;
+}
+
+/* line 12, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_wpum-post.scss */
+.post-container #profile-posts .wpum-post {
+  display: inline-block;
+  box-shadow: 0 0 24px 4px rgba(28, 47, 94, 0.1);
+  border-radius: 7px;
+  position: relative;
+  margin: 20px 10px;
+  padding-top: 0 !important;
+}
+
+/* line 20, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_wpum-post.scss */
+.post-container #profile-posts .wpum-post .image-container {
+  max-height: 136px;
+  min-height: 136px;
+}
+
+/* line 24, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_wpum-post.scss */
+.post-container #profile-posts .wpum-post .image-container a img {
+  border-radius: 5px 5px 0 0;
+}
+
+/* line 29, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_wpum-post.scss */
+.post-container #profile-posts .wpum-post .discription-continer {
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+/* line 32, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_wpum-post.scss */
+.post-container #profile-posts .wpum-post .discription-continer a {
+  font-family: ralewaybold;
+  font-size: 14px;
+  color: #1C2F5E;
+  line-height: 18px;
+  max-height: 55px;
+  overflow: hidden;
+  display: block;
+}
+
+/* line 43, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_wpum-post.scss */
+.post-container #profile-posts .post-pagination {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border: none;
+  margin-top: 30px;
+}
+
+/* line 50, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_wpum-post.scss */
+.post-container #profile-posts .post-pagination .page-numbers {
+  padding: 6px 5px 4px;
+  margin: 0px 10px;
+  border: 1.6px solid #1C2F5E;
+  color: #1C2F5E;
+  border-radius: 8px;
+  width: 42px;
+  height: 40px;
+  font-size: 15px;
+}
+
+/* line 59, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_wpum-post.scss */
+.post-container #profile-posts .post-pagination .page-numbers.current {
+  background-color: #FF4181;
+  border: 1.6px solid #FF4181;
+  color: #ffffff;
+}
+
+/* line 64, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_wpum-post.scss */
+.post-container #profile-posts .post-pagination .page-numbers.next {
+  font-size: 0;
+}
+
+/* line 66, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_wpum-post.scss */
+.post-container #profile-posts .post-pagination .page-numbers.next:after {
+  font-family: icomoon !important;
+  content: '\e924';
+  color: #FF4181;
+  float: left;
+  font-size: 12px;
+  padding: 12px 3px 4px 12px;
+  transform: rotate(270deg);
+}
+
+/* ----- Tablet and desktop ----*/
+@media only screen and (min-width: 800px) {
+  /* line 86, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_wpum-post.scss */
+  .post-container h3 {
+    font-size: 32px !important;
+  }
+  /* line 91, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_wpum-post.scss */
+  .wpum-post .image-container {
+    max-height: 145px;
+    min-height: 145px;
+  }
+}
+
+/* line 3, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main {
+  padding: 0;
+}
+
+/* line 5, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row {
+  max-width: 100%;
+}
+
+/* line 8, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .profile-header {
+  background-image: url(../images/img-wave.png);
+  background-position-y: bottom;
+  background-size: 200%;
+  background-position-x: -50px;
+  padding-bottom: 90px;
+  background-repeat: no-repeat;
+}
+
+/* line 15, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .profile-header .profile-header-top {
+  background-color: #f4f7fe;
+}
+
+/* line 17, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper {
+  max-width: 620px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 30px 0 0 0;
+}
+
+/* line 22, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper .header-cover {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 26, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper .header-cover .header-avatar-container a {
+  width: 125px;
+  height: 125px;
+  display: block;
+  margin: auto;
+}
+
+/* line 31, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper .header-cover .header-avatar-container a img {
+  height: 100%;
+}
+
+/* line 36, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper .header-cover .header-profile-content {
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+}
+
+/* line 41, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper .header-cover .header-profile-content .profile-content-box h3 {
+  font-family: Ralewaybold;
+  font-size: 32px;
+  line-height: 38px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* line 47, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper .header-cover .header-profile-content .profile-content-box h3 a {
+  font-size: 18px;
+}
+
+/* line 56, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper .discription-container .profile-content-description p {
+  font-size: 18px;
+  color: #1C2F5E;
+  font-family: raleway;
+  font-weight: 500;
+  letter-spacing: -0.13px;
+  line-height: 34px;
+}
+
+/* line 71, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .post-container h3 {
+  text-align: center;
+}
+
+/* line 74, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .post-container #profile-posts {
+  display: flex;
+  flex-wrap: row;
+}
+
+/* line 77, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .post-container #profile-posts .wpum-post {
+  overflow: hidden;
+}
+
+/* line 79, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .post-container #profile-posts .wpum-post .image-container {
+  width: 145%;
+  left: -22.5%;
+  overflow: hidden;
+  width: 145%;
+  left: -22.5%;
+}
+
+/* line 85, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .post-container #profile-posts .wpum-post .image-container .category-container {
+  top: 0;
+  left: 22px;
+  display: block;
+  padding: 0px 12px 2px;
+  background-color: #FF4181;
+  z-index: 3;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+  position: absolute;
+}
+
+/* line 95, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+.profile-page #main .fusion-row .profile-container .post-container #profile-posts .wpum-post .image-container .category-container a {
+  color: #fff;
+  font-family: ralewaymed;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-size: 10px;
+}
+
+/* ----- Tablet and desktop ----*/
+@media only screen and (min-width: 800px) {
+  /* line 117, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main {
+    padding: 0;
+  }
+  /* line 119, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row {
+    max-width: 100%;
+  }
+  /* line 122, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .profile-header {
+    background-size: contain;
+    padding-bottom: 314px;
+    background-position-x: 0;
+  }
+  /* line 126, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .profile-header .profile-header-top {
+    margin-bottom: -55px;
+  }
+  /* line 128, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper {
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0 0 0;
+  }
+  /* line 133, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper .header-cover {
+    flex-direction: row;
+    padding-bottom: 20px;
+  }
+  /* line 137, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper .header-cover .header-avatar-container a {
+    width: 125px;
+    height: 125px;
+    display: block;
+  }
+  /* line 141, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper .header-cover .header-avatar-container a img {
+    height: 100%;
+  }
+  /* line 146, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper .header-cover .header-profile-content {
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+  }
+  /* line 150, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper .header-cover .header-profile-content .profile-content-box h3 {
+    text-align: left;
+    font-size: 32px;
+    line-height: 38px;
+  }
+  /* line 154, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper .header-cover .header-profile-content .profile-content-box h3 a {
+    font-size: 18px;
+  }
+  /* line 158, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper .header-cover .header-profile-content .profile-content-box .author-title-container {
+    text-align: left;
+    color: #1D305D;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 460px;
+  }
+  /* line 172, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .profile-header .profile-header-top .profile-header-wrapper .discription-container .profile-content-description p {
+    font-size: 20px;
+  }
+  /* line 180, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .post-container {
+    margin: 0 auto 60px;
+    margin-top: -50px;
+  }
+  /* line 183, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .post-container h3 {
+    text-align: left;
+    padding-top: 0;
+  }
+  /* line 187, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .post-container #profile-posts {
+    display: flex;
+    flex-wrap: row;
+  }
+  /* line 190, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .post-container #profile-posts .wpum-post {
+    width: calc(25% - 20px);
+  }
+  /* line 201, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .newsletter-container {
+    margin-top: 80px !important;
+  }
+}
+
+/* ----- Custom breakpoint for tablet----*/
+@media (min-width: 800px) and (max-width: 1475px) {
+  /* line 216, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_profile-page.scss */
+  .profile-page #main .fusion-row .profile-container .profile-header {
+    background-size: auto;
+    padding-bottom: 354px;
+    background-position-x: -118px;
+  }
+}
+
+/* style of the post listing page */
+/* line 4, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_post-listing.scss */
+.post-listing #main {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 7, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_post-listing.scss */
+.post-listing #main .post-content {
+  max-width: 960px;
+  margin: auto;
+}
+
+/* line 26, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_post-listing.scss */
+.post-listing #main .fusion-load-more-button {
+  border-radius: 7px;
+  background-color: #FF4181;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 60px;
+  text-align: center;
+  max-width: 200px;
+  margin: 40px auto;
+}
+
+/* line 9, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_mixing.scss */
+.post-listing #main .fusion-load-more-button .fusion-button-text {
+  font-size: 15px;
+  color: #fff;
+}
+
+/* line 33, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_post-listing.scss */
+.post-listing #main .fusion-single-line-meta .date {
+  display: none;
+}
+
+/* ----- Tablet and desktop ----*/
+@media only screen and (min-width: 800px) {
+  /* line 48, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_post-listing.scss */
+  .post-listing #main .fusion-column-wrapper .fusion-posts-container article {
+    width: 25% !important;
+  }
+  /* line 51, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_post-listing.scss */
+  .post-listing #main .fusion-column-wrapper .fusion-posts-container article .fusion-post-wrapper .fusion-flexslider {
+    min-height: 136px;
+    max-height: 136px;
+  }
+}
+
+/* line 4, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main h1.entry-title.fusion-post-title,
+.single #wrapper #main h1 {
+  color: #1C2F5E;
+  font-family: ralewaybold;
+  font-size: 32px;
+  letter-spacing: 0.26px;
+  line-height: 38px;
+}
+
+/* line 12, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main h2 {
+  color: #1C2F5E;
+  font-family: ralewaybold;
+  font-size: 26px !important;
+  letter-spacing: 0.26px;
+  line-height: 32px;
+}
+
+/* line 19, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main h3 {
+  color: #1C2F5E;
+  font-family: ralewaysemi;
+  font-size: 24px;
+  letter-spacing: 0.26px;
+  line-height: 28px;
+}
+
+/* line 26, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main h4 {
+  color: #1C2F5E;
+  font-family: ralewaymed;
+  font-size: 22px;
+  letter-spacing: 0.26px;
+  line-height: 26px;
+  margin: 0 0 20px 0px;
+}
+
+/* line 34, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main h5 {
+  color: #1C2F5E;
+  font-family: ralewayreg;
+  font-size: 20px;
+  letter-spacing: 0.26px;
+  line-height: 24px;
+  margin: 0 0 20px 0px;
+}
+
+/* line 42, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main p {
+  color: #1D305D;
+  font-family: ralewayreg;
+  font-size: 18px;
+  letter-spacing: -0.11px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+/* line 50, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main strong,
+.single #wrapper #main b {
+  color: #1C2F5E;
+  font-family: Raleway;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+/* line 57, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .highlight-box {
+  background-color: #f4f7fe !important;
+  padding: 20px !important;
+  border-radius: 10px !important;
+}
+
+/* line 61, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .highlight-box .fusion-row {
+  padding: 0px 20px;
+}
+
+/* line 65, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-flexslider {
+  margin: 0 0 30px 0;
+  position: relative;
+}
+
+/* line 68, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-flexslider .fusion-meta-info {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 73, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-flexslider .fusion-meta-info .fusion-meta-info-wrapper .date {
+  display: none;
+}
+
+/* line 76, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-flexslider .fusion-meta-info .fusion-meta-info-wrapper a {
+  position: absolute;
+  top: 0px;
+  left: 22px;
+  display: block;
+  padding: 12px;
+  background-color: #FF4181;
+  z-index: 3;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+  color: #fff;
+  font-family: ralewaymed;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-size: 12px;
+}
+
+/* line 91, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-flexslider .fusion-meta-info .fusion-meta-info-wrapper a:hover {
+  color: #fff !important;
+  border-bottom: 1px solid #f1aac2;
+}
+
+/* line 99, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main #post-custom-container {
+  margin: 0px 22px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+/* line 105, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-post-title-meta-wrap {
+  order: 1;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+/* line 109, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-post-title-meta-wrap .date {
+  color: #4C4C4C;
+  font-family: ralewaymed;
+  font-size: 14px;
+  line-height: 17px;
+  width: 100%;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* line 118, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-post-title-meta-wrap .fusion-meta-info {
+  border: none;
+}
+
+/* line 121, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-post-title-meta-wrap .fusion-meta-info .fusion-meta-info-wrapper .category-container {
+  display: none;
+}
+
+/* line 126, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-post-title-meta-wrap .entry-title {
+  overflow: hidden;
+}
+
+/* line 129, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-post-title-meta-wrap .bsf-rt-reading-time {
+  right: 0px;
+  bottom: -58px;
+  padding: 0px 5px !important;
+}
+
+/* line 135, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .about-author {
+  order: 2;
+  margin: 0;
+}
+
+/* line 140, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .about-author .about-author-container .avatar img {
+  width: 45px;
+  height: 45px;
+}
+
+/* line 145, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .about-author .about-author-container .description {
+  display: none;
+}
+
+/* line 150, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .about-author .fusion-title .title-heading-left {
+  margin: 0;
+  padding: 2px 0 5px 0;
+}
+
+/* line 153, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .about-author .fusion-title .title-heading-left a {
+  color: #1C2F5E;
+  font-family: ralewaymed;
+  font-size: 17px;
+  line-height: 17px;
+  padding-bottom: 2px;
+}
+
+/* line 159, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .about-author .fusion-title .title-heading-left a:hover {
+  border-bottom: solid 1px #FF4181;
+}
+
+/* line 164, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .about-author .fusion-title .title-sep-container {
+  display: none;
+}
+
+/* line 169, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .post-content {
+  order: 4;
+  padding: 0 0 20px;
+}
+
+/* line 172, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .post-content ol,
+.single #wrapper #main .post-content ul {
+  padding-left: 25px;
+}
+
+/* line 175, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .post-content ol li,
+.single #wrapper #main .post-content ul li {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* line 178, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .post-content ol li strong,
+.single #wrapper #main .post-content ul li strong {
+  font-size: 18px !important;
+}
+
+/* line 183, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .post-content .fusion-fullwidth {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* line 188, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .related-posts {
+  order: 5;
+}
+
+/* line 191, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-single-sharing-box {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+  background: transparent;
+  order: 3;
+  display: block;
+  margin-top: 0px;
+}
+
+/* line 199, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-single-sharing-box .fusion-social-networks {
+  width: 100%;
+}
+
+/* line 201, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-single-sharing-box .fusion-social-networks .fusion-social-networks-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* line 206, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-single-sharing-box .fusion-social-networks .fusion-social-networks-wrapper .fusion-icon-pinterest {
+  display: none;
+}
+
+/* line 209, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-single-sharing-box .fusion-social-networks .fusion-social-networks-wrapper a {
+  font-size: 18px;
+  padding: 19px;
+}
+
+/* line 212, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-single-sharing-box .fusion-social-networks .fusion-social-networks-wrapper a:first-of-type {
+  padding-left: 5px;
+}
+
+/* line 215, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+.single #wrapper #main .fusion-single-sharing-box .fusion-social-networks .fusion-social-networks-wrapper a:before {
+  color: #1C2F5E;
+}
+
+/* ----- Tablet and desktop ----*/
+@media only screen and (min-width: 800px) {
+  /* line 233, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+  .single #wrapper #main .fusion-flexslider {
+    max-height: 405px !important;
+    min-height: 405px !important;
+  }
+  /* line 236, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+  .single #wrapper #main .fusion-flexslider .slides {
+    position: absolute;
+    bottom: -150px;
+  }
+  /* line 244, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+  .single #wrapper #main .fusion-flexslider .fusion-meta-info .fusion-meta-info-wrapper .category-container {
+    left: 10%;
+  }
+  /* line 251, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+  .single #wrapper #main .fusion-post-title-meta-wrap .entry-title {
+    overflow: hidden;
+  }
+  /* line 255, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+  .single #wrapper #main .fusion-post-title-meta-wrap .bsf-rt-reading-time {
+    bottom: -70px;
+  }
+  /* line 259, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+  .single #wrapper #main #post-custom-container {
+    max-width: 780px;
+    margin: auto;
+  }
+  /* line 262, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+  .single #wrapper #main #post-custom-container .category-container {
+    top: 0;
+  }
+  /* line 264, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+  .single #wrapper #main #post-custom-container .category-container a {
+    color: #fff;
+    font-family: ralewaymed;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-size: 12px;
+  }
+  /* line 272, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+  .single #wrapper #main #post-custom-container .post-content {
+    max-width: 620px;
+    margin: auto;
+    position: relative;
+    min-height: 300px;
+  }
+  /* line 285, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+  .single #wrapper #main #post-custom-container .fusion-single-sharing-box {
+    position: absolute;
+    width: 60px;
+    display: block;
+    left: -80px;
+  }
+  /* line 291, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+  .single #wrapper #main #post-custom-container .fusion-single-sharing-box .fusion-social-networks .fusion-social-networks-wrapper {
+    flex-direction: column;
+  }
+  /* line 294, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_singlepage.scss */
+  .single #wrapper #main #post-custom-container .fusion-single-sharing-box .fusion-social-networks .fusion-social-networks-wrapper a:first-of-type {
+    padding-left: 19px;
+  }
+}
+
+/* line 1, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing {
+  /* Style for single featured post with popular and editor pics on right */
+  /* Style for post two section */
+  /* Style for post two section */
+  /* Style for post with newsletter */
+}
+
+/* line 4, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing #main .fusion-row .post-content {
+  max-width: 940px;
+  margin: auto;
+  width: 100%;
+}
+
+/* line 10, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing #main .fusion-row .fusion-button-wrapper .fusion-button {
+  border-radius: 7px;
+  background-color: #FF4181;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 60px;
+}
+
+/* line 9, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/_mixing.scss */
+.blog-landing #main .fusion-row .fusion-button-wrapper .fusion-button .fusion-button-text {
+  font-size: 15px;
+  color: #fff;
+}
+
+/* line 16, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .fusion-recent-posts {
+  margin-bottom: 20px;
+}
+
+/* line 20, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar {
+  padding-top: 30px;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+/* line 24, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar .fusion-layout-column {
+  margin-bottom: 0 !important;
+}
+
+/* line 26, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar .fusion-layout-column:first-child {
+  margin-top: -30px !important;
+}
+
+/* line 28, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .fusion-post-grid {
+  padding: 0px 0px 30px 0 !important;
+}
+
+/* line 32, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .fusion-post-wrapper:hover {
+  background-color: transparent !important;
+}
+
+/* line 36, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .fusion-flexslider {
+  min-height: 180px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/* line 42, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .fusion-flexslider .slides li .fusion-image-wrapper {
+  left: calc(10% - 179px);
+}
+
+/* line 49, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .fusion-post-content-wrapper .entry-title {
+  margin-bottom: 10px;
+  max-height: initial;
+}
+
+/* line 52, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .fusion-post-content-wrapper .entry-title a {
+  font-size: 26px;
+  line-height: 30px !important;
+  max-height: initial !important;
+  max-height: 118px !important;
+}
+
+/* line 58, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .fusion-post-content-wrapper .entry-title a .bsf-rt-reading-time {
+  right: 15px !important;
+  bottom: 30px;
+  padding: 0px !important;
+}
+
+/* line 66, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .fusion-post-meta-box {
+  padding-top: 10px;
+}
+
+/* line 68, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .fusion-post-meta-box p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4C4C4C;
+  padding: 0 0 10px;
+  margin-bottom: 0;
+  max-height: 74px;
+  overflow: hidden;
+}
+
+/* line 79, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .recent-posts-content h4 {
+  padding-bottom: 10px;
+}
+
+/* line 82, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .recent-posts-content .meta {
+  position: absolute;
+  top: 0;
+  left: 22px;
+  display: block;
+  padding: 8px 12px;
+  background-color: #FF4181;
+  z-index: 3;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+  color: #fff;
+}
+
+/* line 93, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .recent-posts-content .meta a {
+  color: #fff;
+  font-family: ralewaymed;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-size: 10px;
+}
+
+/* line 99, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .recent-posts-content .meta a:hover {
+  color: #fff !important;
+  border-bottom: 1px solid #f1aac2;
+}
+
+/* line 111, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .three-posts-section .fusion-flexslider {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/* line 179, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .post-with-newsletter {
+  margin-right: -30px !important;
+  margin-left: -30px !important;
+}
+
+/* line 184, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .post-with-newsletter .fusion-row .fusion_builder_column .fusion-column-wrapper {
+  padding: 20px 0 60px !important;
+}
+
+/* line 188, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .post-with-newsletter .fusion-row .fusion_builder_column .fusion-column-wrapper .fusion-blog-shortcode .fusion-posts-container article {
+  width: 100%;
+}
+
+/* line 190, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .post-with-newsletter .fusion-row .fusion_builder_column .fusion-column-wrapper .fusion-blog-shortcode .fusion-posts-container article .fusion-post-wrapper {
+  min-height: 374px;
+}
+
+/* line 192, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .post-with-newsletter .fusion-row .fusion_builder_column .fusion-column-wrapper .fusion-blog-shortcode .fusion-posts-container article .fusion-post-wrapper .fusion-flexslider {
+  min-height: 85px;
+  max-height: 85px;
+}
+
+/* line 197, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .post-with-newsletter .fusion-row .fusion_builder_column .fusion-column-wrapper .fusion-blog-shortcode .fusion-posts-container article .fusion-post-wrapper .fusion-post-content-wrapper .fusion-post-content {
+  margin-top: 0px !important;
+}
+
+/* line 207, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .post-with-newsletter .fusion-row .newsletter-container {
+  padding: 0;
+}
+
+/* line 208, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.blog-landing .post-with-newsletter .fusion-row .newsletter-container .fusion-column-wrapper {
+  padding: 0;
+}
+
+/* Style for last three posts */
+/* line 218, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.last-posts-container {
+  margin-top: -30px;
+}
+
+/* line 220, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+.last-posts-container .fusion-post-wrapper {
+  margin-top: 0px !important;
+}
+
+/* ----- Tablet and desktop ----*/
+@media only screen and (min-width: 800px) {
+  /* line 227, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+  .blog-landing {
+    /* Style for single featured post with popular and editor pics on right */
+  }
+  /* line 232, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+  .blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .fusion-flexslider {
+    min-height: 336px !important;
+  }
+  /* line 235, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+  .blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .fusion-post-content-wrapper {
+    padding: 30px 30px 0 !important;
+  }
+  /* line 238, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+  .blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .fusion-post-content-wrapper .post-content .entry-title {
+    min-height: 60px;
+    max-height: 60px;
+    overflow: hidden;
+  }
+  /* line 242, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+  .blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .fusion-post-content-wrapper .post-content .entry-title a {
+    font-size: 28px;
+    line-height: 32px !important;
+  }
+  /* line 245, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+  .blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .fusion-post-content-wrapper .post-content .entry-title a .bsf-rt-reading-time {
+    left: unset;
+    right: 0px;
+    bottom: 47px !important;
+  }
+  /* line 252, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+  .blog-landing .main-post-with-sidebar .fusion-layout-column:first-child .fusion-post-content-wrapper .post-content .fusion-post-meta-box {
+    max-height: 30px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  /* line 262, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+  .blog-landing .newsletter-container {
+    max-width: 700px;
+    margin: auto !important;
+    background-position-x: right !important;
+    background-position-y: 15px !important;
+    padding-top: 66px !important;
+  }
+  /* line 270, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+  .blog-landing .newsletter-container .fusion-column-wrapper .fusion-text h2 {
+    max-width: max-content !important;
+  }
+  /* line 273, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_blog-landing.scss */
+  .blog-landing .newsletter-container .fusion-column-wrapper .fusion-text h6 {
+    max-width: max-content !important;
+  }
+}
+
+/* line 3, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_category-listing.scss */
+.category #main,
+.tag #main {
+  margin-bottom: 50px;
+  margin-top: 0px !important;
+}
+
+/* line 6, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_category-listing.scss */
+.category #main .fusion-load-more-button,
+.tag #main .fusion-load-more-button {
+  border-radius: 7px;
+  background-color: #FF4181;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 60px;
+  text-align: center;
+  max-width: 200px;
+  margin: 40px auto;
+}
+
+/* line 20, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_category-listing.scss */
+.category #main .fusion-post-wrapper .fusion-post-content-wrapper .fusion-post-content .fusion-post-title a,
+.tag #main .fusion-post-wrapper .fusion-post-content-wrapper .fusion-post-content .fusion-post-title a {
+  color: #1C2F5E !important;
+  font-family: ralewaybold;
+  font-size: 14px;
+  line-height: 22px;
+  max-height: 70px;
+  overflow: hidden;
+  display: block;
+}
+
+/* line 2, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_tag-listing.scss */
+.tag #main {
+  margin-bottom: 50px;
+  margin-top: 0px !important;
+}
+
+/* line 9, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_tag-listing.scss */
+.tag #main .fusion-post-wrapper .fusion-post-content-wrapper .fusion-post-content .fusion-single-line-meta .category-container {
+  position: relative;
+}
+
+/* line 14, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_tag-listing.scss */
+.tag #main .fusion-post-wrapper .fusion-post-content-wrapper .fusion-post-content .fusion-post-title a {
+  color: #1C2F5E !important;
+  font-family: ralewaybold;
+  font-size: 14px;
+  line-height: 22px;
+  max-height: 70px;
+  overflow: hidden;
+  display: block;
+}
+
+/* line 2, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_search-result.scss */
+#content.search-result-page {
+  margin: 60px 0;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  float: initial !important;
+}
+
+/* line 8, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_search-result.scss */
+#content.search-result-page .search-page-search-form {
+  border: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+/* line 19, ../../../../../Sites/intelematics/wp-content/themes/Avada-Child-Theme/css/scss/components/_search-result.scss */
+#content.search-result-page #posts-container article .fusion-post-wrapper .fusion-post-content-wrapper .fusion-post-content .fusion-post-title a {
+  max-height: 72px;
+  overflow: hidden;
+  display: block;
+  font-size: 17px;
+  font-family: Ralewaybold;
+  line-height: 24px;
+  color: #1C2F5E;
+}
+
+/*# sourceMappingURL=style-file34.css.map */

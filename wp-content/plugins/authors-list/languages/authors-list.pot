@@ -1,0 +1,891 @@
+# Copyright (C) 2022 WPKube
+# This file is distributed under the same license as the Authors List plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Authors List 1.2.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/Authors-List\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-30 11:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: authors-list\n"
+"\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#: backend/includes/class-authors-list-settings.php:620
+msgid "&larr; Back to overview"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:334
+msgid "<div>"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:335
+msgid "<h2>"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:336
+msgid "<h3>"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:337
+msgid "<h4>"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:338
+msgid "<h5>"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:339
+msgid "<h6>"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:135
+msgid "Above"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:316
+msgid "Active"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:383
+#: backend/includes/class-authors-list-settings.php:900
+msgid "Add New"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:173
+msgid ""
+"Add the required filter types of author. It takes the values of the author "
+"meta_key, label and display types respectively."
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:122
+msgid ""
+"Add this shortcode in the place where you want to show the authors list."
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:295
+msgid "After Avatar"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:316
+msgid "After Bio"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:309
+msgid "After Count"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:323
+msgid "After Link"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:302
+msgid "After Title"
+msgstr ""
+
+#: backend/includes/class-authors-list-item.php:561
+msgid "All"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:429
+msgid "Amount"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:349
+msgid "Archive"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:115
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:486
+msgid "Ascending"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:362
+msgid "Author meta key when the Link To option is set as \"User Meta Value\"."
+msgstr ""
+
+#. Name of the plugin
+#: backend/includes/class-authors-list-dashboard.php:212
+#: backend/includes/class-authors-list-dashboard.php:257
+msgid "Authors List"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:373
+msgid "Avatar Meta Key"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:365
+msgid "Avatar Size"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:238
+msgid "Background"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:350
+msgid "bbPress Profile"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:260
+msgid "Before Avatar"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:281
+msgid "Before Bio"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:274
+msgid "Before Count"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:288
+msgid "Before Link"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:267
+msgid "Before Title"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:381
+msgid "Bio Word Trim"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:239
+msgid "Border"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:720
+msgid "Border Style"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:700
+msgid "Border Width"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:640
+msgid "Bottom Center"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:638
+msgid "Bottom Left"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:639
+msgid "Bottom Right"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:558
+msgid "Buddypress member type"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:561
+msgid "Buddypress member type separated by comma, example student,teacher"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:351
+msgid "BuddyPress Profile"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:179
+msgid "Button Text"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:540
+msgid "Categories"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:543
+msgid "Category IDs separated by comma, example 1,3,4"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:470
+#: backend/includes/class-authors-list-styler.php:637
+msgid "Center"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:635
+msgid "Center Left"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:636
+msgid "Center Right"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:127
+#: backend/includes/class-authors-list-settings.php:886
+msgid "Checkboxes"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:407
+#: backend/includes/class-authors-list-styler.php:577
+#: backend/includes/class-authors-list-styler.php:729
+msgid "Color"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:212
+msgid "Columns Direction"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:200
+msgid "Columns per Row"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:84
+msgid "Content"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:253
+msgid "Count Text"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:231
+msgid "Current element:"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:418
+msgid "Custom CSS"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:211
+#: backend/includes/class-authors-list-dashboard.php:231
+msgid "Dashboard"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:711
+msgid "Dashed"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:362
+msgid "Delete"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:487
+msgid "Descending"
+msgstr ""
+
+#. Description of the plugin
+msgid "Display a list of post authors."
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:157
+#: backend/includes/class-authors-list-settings.php:475
+msgid "Display Name"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:522
+msgid "Display Name Starts With"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:457
+msgid "Display only authors. Disable this to include all users."
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:710
+msgid "Dotted"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:713
+msgid "Double"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:358
+msgid "Duplicate"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:154
+#: backend/includes/class-authors-list-settings.php:472
+msgid "Email"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:392
+msgid "Enable Styler"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:492
+msgid "Exclude Authors"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:170
+msgid "Filters"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:164
+msgid "Filters - Enable"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:476
+msgid "First Name"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:528
+msgid "First Name Starts With"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:416
+msgid "Font Family"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:426
+msgid "Font Size"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:439
+msgid "Font Weight"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:519
+msgid ""
+"For example if set to 7 it will only show authors that have posts published "
+"in the past 7 days"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:69
+msgid "General"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:714
+msgid "Groove"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:216
+msgid "Horizontal"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:430
+msgid "How many authors to show?"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wpkube.com/"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:324
+#: backend/includes/class-authors-list-settings.php:152
+msgid "ID"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:436
+msgid ""
+"If enabled, the list will be paginated, with the amount of items per page "
+"taken from the \"Amount\" option above."
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:374
+msgid ""
+"If you wish the avatar URL to be based on \"user meta\" value instead of "
+"default WP avatar, enter the \"user meta\" key here."
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:586
+msgid "Image"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:623
+msgid "Image Attachment"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:643
+msgid "Image Position"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:610
+msgid "Image Repeat"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:498
+msgid "Include Authors"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:716
+msgid "Inset"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:116
+msgid "Internal name for this authors list. For your own reference."
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:477
+msgid "Last Name"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:534
+msgid "Last Name Starts With"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:468
+msgid "Latest Post Date"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:79
+msgid "Layout"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:134
+#: backend/includes/class-authors-list-styler.php:469
+msgid "Left"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:460
+msgid "Letter Spacing"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:525
+msgid "Limit to authors whose display name starts with specific characters"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:531
+msgid "Limit to authors whose first name starts with specific characters"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:537
+msgid "Limit to authors whose last name starts with specific characters"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:449
+msgid "Line Height"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:345
+msgid "Link To"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:358
+msgid "Link To Meta Key"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:153
+msgid "Login"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:561
+msgid "Margin Bottom"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:531
+msgid "Margin Left"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:541
+msgid "Margin Right"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:551
+msgid "Margin Top"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:443
+msgid ""
+"Minimum amount of posts an authors needs to have to be shown in the list."
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:442
+msgid "Minimum Posts"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:325
+#: backend/includes/class-authors-list-settings.php:115
+msgid "Name"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:549
+msgid "Name of a taxonomy, for example post_tag"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:156
+#: backend/includes/class-authors-list-settings.php:471
+msgid "Nicename"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:607
+msgid "No Repeat"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:709
+msgid "None"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:232
+msgid "none selected"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:128
+#: backend/includes/class-authors-list-settings.php:887
+msgid "Number Range"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:456
+msgid "Only Authors"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:482
+msgid "Order"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:463
+msgid "Orderby"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:717
+msgid "Outset"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:521
+msgid "Padding Bottom"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:491
+msgid "Padding Left"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:501
+msgid "Padding Right"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:511
+msgid "Padding Top"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:435
+msgid "Pagination"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:130
+msgid "Position"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:510
+msgid "Post Types"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:513
+msgid ""
+"Post types separated by comma, example post,page,portfolio. . More info on "
+"roles in <a href=\"https://wordpress.org/support/article/post-types/\" "
+"target=\"_blank\">WordPress Docs</a>"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:516
+msgid "Published in Past X Days"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:74
+msgid "Query"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:126
+#: backend/includes/class-authors-list-settings.php:885
+msgid "Radio"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:690
+msgid "Radius - Bottom Left"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:680
+msgid "Radius - Bottom Right"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:660
+msgid "Radius - Top Left"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:670
+msgid "Radius - Top Right"
+msgstr ""
+
+#: backend/includes/class-authors-list-item.php:682
+msgid "Range:"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:429
+msgid "refreshing..."
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:474
+msgid "Registration Date"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:130
+#: backend/includes/class-authors-list-settings.php:890
+msgid "Remove"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:604
+msgid "Repeat"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:605
+msgid "Repeat Horizontal"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:606
+msgid "Repeat Vertical"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:360
+msgid "Restore"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:715
+msgid "Ridge"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:136
+#: backend/includes/class-authors-list-styler.php:471
+msgid "Right"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:504
+msgid "Roles"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:505
+msgid ""
+"Roles separated by comma, example administrator,editor. More info on roles "
+"in <a href=\"https://wordpress.org/support/article/roles-and-"
+"capabilities/#summary-of-roles\" target=\"_blank\">WordPress Docs</a>"
+msgstr ""
+
+#: backend/includes/class-authors-list-item.php:515
+msgid "Search"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:89
+msgid "Search & Filters"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:147
+msgid "Search - Columns"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:141
+msgid "Search - Enable"
+msgstr ""
+
+#: backend/includes/class-authors-list-item.php:535
+msgid "Search term"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:125
+#: backend/includes/class-authors-list-settings.php:884
+msgid "Select"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:374
+msgid "Select Image"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:354
+msgid "Settings"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:623
+#: backend/includes/class-authors-list-settings.php:694
+msgid "Settings Saved"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:326
+#: backend/includes/class-authors-list-settings.php:121
+msgid "Shortcode"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:239
+msgid "Show Bio"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:232
+msgid "Show Count"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:246
+msgid "Show Link"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:225
+msgid "Show Title"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:595
+msgid "Size"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:367
+msgid ""
+"Size for the avatar image (used when requesting the image from Gravatar)"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:450
+msgid "Skip authors that do not have any posts published."
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:449
+msgid "Skip Empty"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:712
+msgid "Solid"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:237
+msgid "Spacing"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:187
+msgid "Style"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:399
+msgid "Styler"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:408
+msgid "Styler JS data"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:95
+msgid "Styling"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:546
+msgid "Taxonomy"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:555
+msgid "Term IDs separated by comma, example 1,3,4"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:552
+msgid "Terms"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:474
+msgid "Text Align"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:342
+msgid ""
+"The element that wraps the name of the author. Defaults to div, can be any "
+"element, for example h2"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:330
+msgid "Title Element"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:222
+msgid ""
+"To change styling for an element, click the element in the live preview on "
+"the right."
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:634
+msgid "Top Center"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:632
+msgid "Top Left"
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:633
+msgid "Top Right"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:467
+msgid "Total Posts Count"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:318
+#: backend/includes/class-authors-list-dashboard.php:356
+msgid "Trash"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:382
+msgid ""
+"Trim the \"biography\" (description) of the author to a specific number of "
+"words."
+msgstr ""
+
+#: backend/includes/class-authors-list-styler.php:236
+msgid "Typography"
+msgstr ""
+
+#: backend/includes/class-authors-list-general.php:135
+#: backend/includes/class-authors-list-general.php:300
+msgid "Untitled authors list"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:344
+msgid "Untitled item #"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:155
+#: backend/includes/class-authors-list-settings.php:473
+msgid "URL"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:469
+msgid "User ID"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:495
+#: backend/includes/class-authors-list-settings.php:501
+msgid "User IDs separated by comma, example 1,3,4"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:352
+msgid "User Meta Value"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:470
+msgid "Username"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:217
+msgid "Vertical"
+msgstr ""
+
+#: includes/class-authors-list-shortcode.php:1143
+msgid "View Posts"
+msgstr ""
+
+#: includes/class-authors-list-shortcode.php:763
+msgid "View Posts &rarr;"
+msgstr ""
+
+#: includes/class-authors-list-shortcode.php:1146
+#: includes/class-authors-list-shortcode.php:1149
+msgid "View Profile"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:355
+msgid "Where should the links for the authors go to?"
+msgstr ""
+
+#: backend/includes/class-authors-list-settings.php:148
+msgid ""
+"Which columns should be searched? If none selected, all will be searched."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPKube"
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:376
+msgid ""
+"You do not have any active authors list at the moment. Add one using the "
+"button below."
+msgstr ""
+
+#: backend/includes/class-authors-list-dashboard.php:372
+msgid "You do not have any authors list in the trash at the moment."
+msgstr ""

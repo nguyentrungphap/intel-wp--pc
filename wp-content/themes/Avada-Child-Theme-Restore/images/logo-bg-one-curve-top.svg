@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440.805" height="660.039" viewBox="0 0 1440.805 660.039">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.567" y1="1.315" x2="0.066" y2="0.145" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#e7f2ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Product---INSIGHT" transform="translate(-662.195 -234.625)">
+    <g id="assets_INSIGHT" transform="translate(663 186)">
+      <path id="bg-flourish-02-bottom" d="M1508,2033.625v655.984l-1226.117,3.45-214.687.6V2045.947s282.461,71.717,733.07,72.233S1508,2033.625,1508,2033.625Z" transform="translate(-68 -1985)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

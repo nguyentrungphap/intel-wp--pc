@@ -1,0 +1,50 @@
+version: '2.1'
+services:
+    web:
+        build:
+            context: .
+            dockerfile: ci/Dockerfile.local
+        ports:
+            - "80:80"
+        hostname: intel-web
+        container_name: intel-web
+        volumes:
+            - .:/var/www/html/
+        links:
+            - db
+        networks:
+            - wpsite
+        platform: linux/amd64 #Use or Mac M1
+    db:
+        image: mysql:5.7
+        ports:
+            - "33061:3306"
+        environment:
+            MYSQL_DATABASE: intel_db_dev
+            MYSQL_USER: user
+            MYSQL_PASSWORD: secret
+            MYSQL_ROOT_PASSWORD: secret
+        hostname: intel-db
+        container_name: intel-db
+        volumes:
+            - ./dump:/docker-entrypoint-initdb.d
+            - persistent:/var/lib/mysql
+        networks:
+            - wpsite
+        platform: linux/amd64
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        links:
+            - db:db
+        ports:
+            - 8002:80
+        environment:
+            MYSQL_USER: user
+            MYSQL_PASSWORD: secret
+            MYSQL_ROOT_PASSWORD: secret
+        networks: 
+            - wpsite
+networks:
+    wpsite:
+volumes:
+    persistent:

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="590px" height="822px" viewBox="0 0 590 822" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>6A050CD0-3D7C-4235-B4EF-65B571533913</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="36.4788692%" y1="56.0527866%" x2="143.539033%" y2="25.2993841%" id="linearGradient-1">
+            <stop stop-color="#FFF0FA" stop-opacity="0.473366477" offset="0%"></stop>
+            <stop stop-color="#70B8FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Case-Studies" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.524832589">
+        <g id="assets_case-studies" transform="translate(-1506.000000, -743.000000)" fill="url(#linearGradient-1)">
+            <path d="M2096,743 L2096,1497.10928 L2096,1565 C1986.0274,1497.45709 1730.73935,1458.54526 1683.96897,1402.77668 C1634.6107,1343.9196 1505.99164,1364.75996 1506,1238.08005 C1506.00836,1119.19086 1623.45712,1136.41839 1664.93354,1089.76493 C1690.4246,1061.09102 1682.89617,1021.48044 1688.12425,983.879423 C1692.30671,961.945497 1705.03289,938.849072 1724.73856,930.184127 C1769.58919,910.463438 1808.70566,912.204574 1839.82422,892.915253 C1869.12341,874.753962 1890.77706,822.379924 1870.91978,794.179161 C1848.62726,762.52015 1799.17697,750.311309 1761.65297,743 L2096,743 Z" id="bg-case-study-header"></path>
+        </g>
+    </g>
+</svg>

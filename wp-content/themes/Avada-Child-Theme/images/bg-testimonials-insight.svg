@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="877px" viewBox="0 0 1440 877" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>bg-testimonials-insight</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="97.9941967%" y1="68.5080217%" x2="84.5246944%" y2="32.8522476%" id="linearGradient-1">
+            <stop stop-color="#F8F6F9" offset="0%"></stop>
+            <stop stop-color="#DDE8FB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Product---INSIGHT" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets_INSIGHT" transform="translate(-72.000000, -2058.000000)" fill="url(#linearGradient-1)">
+            <path d="M72.000011,2119.06432 C102.055125,2164.7173 137.483901,2197.21634 179.197942,2212.7852 C530.098752,2343.7513 1052.44182,2203.65981 1512.00077,2058 L1511.99601,2343.00024 L1512,2343.00024 L1512,2934.10815 C1443.75781,2891.05839 1353.42535,2863.86928 1241.00261,2852.54084 C1105.00231,2849.20732 1029.00214,2903.50397 966.500775,2890.40407 C903.999413,2877.30417 850.537879,2809.37202 724.203623,2809.37202 C597.869368,2809.37202 609.586466,2841.86747 520.000389,2869.5335 C430.415311,2897.19954 393.14412,2788.56665 268.71901,2783.15901 C151.664243,2783.15901 114.255876,2823.50178 72,2849.20732 L72,2849.20732 L72,2343.00024 L72.0022319,2343.00024 L72.000011,2119.06432 Z" id="bg-testimonials-insight"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+{
+	"name": "pardot/dynamic-content",
+	"title": "Account Engagement Dynamic Content",
+	"category": "embed",
+	"description": "Delivers targeted messaging to prospects. Content is displayed according to rules defined in Account Engagement based on the prospect’s data or attributes.",
+	"textdomain": "pardot",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

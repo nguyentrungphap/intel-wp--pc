@@ -1,0 +1,9 @@
+wp-config.php
+.idea/
+# ignore IDE
+.idea/
+.DS_Store
+.htaccess
+wp-config.php
+wp-content/uploads
+wp-content/uploads/wc-logs

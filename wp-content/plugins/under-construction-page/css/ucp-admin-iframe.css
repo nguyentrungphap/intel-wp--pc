@@ -1,0 +1,255 @@
+
+.ucp-module:hover{
+  outline: 1px dashed #b3b3b3;
+}
+
+.ucp-module:hover .ucp-element{
+   outline: 1px dashed #ff9900;
+}
+
+.ucp-module.ucp-module-editing{
+  outline: 1px dashed #ff9900;
+  -webkit-box-shadow: 200px 200px 0px 2000px rgba(0,0,0,0.16);
+  -moz-box-shadow: 200px 200px 0px 2000px rgba(0,0,0,0.16);
+  box-shadow: 200px 200px 0px 2000px rgba(0,0,0,0.16);
+  z-index:2000;
+}
+
+.ucp-element:hover{
+  outline: 1px dashed #ff9900;
+}
+
+.content{
+  position:relative;
+}
+
+.ucp-row{
+  min-height:100%;
+  /*border:1px solid #F00;*/
+}
+
+.ucp-editor-highlight{
+  background-color: rgba(59, 160, 255, 0.05);
+  z-index:1000;
+  width:100%;
+  height:100%;
+  display:block;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.ucp-editor-highlight-editing{
+    background-color: rgba(255, 201, 59, 0.05);
+    z-index: -1;
+    border: 1px dashed #ffd800;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.ucp-editor-highlight-editing i{
+   display:none;
+}
+
+.ucp-editor-highlight-editing-loader{
+        z-index: 1000;
+    border: 1px dashed #1db9f8;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 29px;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0, 144, 255, 0.55);
+    padding-top: 50px;
+}
+
+.ucp-editor-highlight-editing-loader i{
+   display:inline-block;
+}
+
+.ucp-module-controls{
+  font-size: 18px;
+    color: #ffffff;
+    background: #ff9900;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2px;
+    transition: background 0.1s;
+    transition-timing-function: linear;
+    position: absolute;
+    left: 50%;
+    top: -29px;
+    margin-left: 0;
+    z-index: 9999;
+    cursor: pointer;
+    margin-left: -20px;
+}
+
+.ucp-element-controls{
+    font-size: 16px;
+    color: #ffffff;
+    background: #ff9900;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4px;
+    transition: background 0.1s;
+    transition-timing-function: linear;
+    position: absolute;
+    left: 0;
+    z-index:9999;
+    cursor:pointer;
+}
+
+
+.ucp-element-controls-edit,
+.ucp-element-controls-edit:hover{
+    width: 100%;
+    left: 0;
+    margin: 0;
+    top: 0;
+    height: auto;
+    color: #FFF;
+    background-color:#444;
+    font-size:12px;
+    font-weight:normal;
+}
+
+.ucp-element-controls-edit textarea,
+.ucp-element-controls-edit input{
+  height:20px;
+  color:#000;
+}
+
+.ucp-module-title,
+.ucp-module-edit,
+.ucp-module-move,
+.ucp-module-clone,
+.ucp-module-delete{
+      float: left;
+    margin: 0px 2px;
+    transition: opacity 0.1s;
+    transition-timing-function: linear;
+    cursor: pointer;
+    z-index: 99999;
+    line-height: 18px;
+    padding: 4px 0;
+}
+
+.ucp-module-title{
+   font-size: 12px;
+    border-right: 1px dashed rgba(255, 255, 255, 0.55);
+    padding-right: 4px;
+    margin-right: 2px;
+}
+
+.ucp-module-edit:hover,
+.ucp-module-move:hover,
+.ucp-module-delete:hover{
+  opacity:0.6;
+}
+
+.ucp-module-edit{
+  font-size: 18px;
+}
+.ucp-module-drop-placeholder { height: 1.5em; line-height: 1.2em; }
+
+.wp-picker-active{
+  position:relative;
+  z-index:9999;
+}
+
+
+.ucp-new-module-helper{
+  z-index:9999999;
+  border:1px dashed #DDD;
+  border-radius:4px;
+  background: #0085ba;
+  color: #fff;
+  width:300px;
+  height:40px;
+  display:block;
+  -webkit-box-shadow: 15px 29px 31px 2px rgba(0,0,0,0.18);
+  -moz-box-shadow: 15px 29px 31px 2px rgba(0,0,0,0.18);
+  box-shadow: 15px 29px 31px 2px rgba(0,0,0,0.18);
+  font-size:24px;
+  text-align:center;
+  padding:2px 0 4px 0;
+}
+
+.ucp-dragging-module .ucp-module{
+ border:1px dashed #0085ba;
+ opacity:0.6;
+}
+
+.ucp-dd-over{
+  border:1px solid #0064FF;
+}
+
+.ucp-drop-placeholder{
+  opacity:0.5;
+  background-color:rgba(255, 222, 126, 0.35);
+}
+
+.ucp-drop-placeholder:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.ucp-new-page-message {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    color: #aaaaaa;
+}
+
+.ucp-new-page-message span{
+  font-size:24px;
+}
+
+.ucp-module-dd{
+  box-sizing:border-box;
+}
+
+.ucp-module-dd > .ucp-element{
+  text-align:center;
+  position:relative;
+}
+
+.ucp-row .ucp-module-dd{
+  position: relative;
+  box-sizing:content-box;
+  min-height: 1px;
+  padding-right: 0;
+  padding-left: 0;
+  background-position: center;
+}
+
+.ucp-module-dd .fcountdown-timer {
+  width: auto;
+  display: inline-block;
+}
+
+html,body,#ucp-template,.container{
+  height:100%;
+}
+
+h1,h2{
+  overflow:hidden;
+}

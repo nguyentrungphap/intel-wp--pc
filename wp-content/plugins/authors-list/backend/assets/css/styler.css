@@ -1,0 +1,179 @@
+/*--------------------------------------------------------------
+	# Main wrapper
+--------------------------------------------------------------*/
+#authors-list-styler-panel {
+	position: relative;
+}
+#authors-list-styler-panel p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15px;
+}
+#authors-list-styler-panel-main-wrap {
+	max-height: 0;
+	-webkit-transition: max-height 0.5s;
+	transition: max-height 0.5s;
+}
+#authors-list-styler-panel.authors-list-styler-active #authors-list-styler-panel-main-wrap {
+	max-height: 1000px;
+}
+
+/*--------------------------------------------------------------
+	# Header
+--------------------------------------------------------------*/
+#authors-list-styler-panel-header {
+	margin: 10px 0;
+}
+#authors-list-styler-panel-header-primary {
+	display: inline-block;
+}
+#authors-list-styler-panel-header-secondary {
+	display: inline-block;
+}
+
+/*--------------------------------------------------------------
+	# Main
+--------------------------------------------------------------*/
+#authors-list-styler-panel-main {
+	position: relative;
+}
+#authors-list-styler-panel-main-select-note {
+	padding: 30px;
+	border: 1px dashed #ddd;
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
+
+.authors-list-styler-panel-section {
+	display: none;
+}
+.authors-list-styler-panel-section.authors-list-styler-active {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+	# Options
+--------------------------------------------------------------*/
+.authors-list-styler-nav {
+	margin-bottom: 10px;
+}
+
+.authors-list-styler-panel-options-group-main {
+	display: none;
+}
+.authors-list-styler-panel-options-group.authors-list-styler-active .authors-list-styler-panel-options-group-main {
+	display: block;
+}
+
+.authors-list-styler-panel-option {
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin: 5px 0;
+}
+.authors-list-styler-panel-option-header {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.authors-list-styler-panel-option-label {
+	float: left;
+	font-weight: 500;
+}
+.authors-list-styler-panel-option-extra {
+	float: right;
+}
+.authors-list-styler-panel-option-main {
+	position: relative;
+}
+
+/*--------------------------------------------------------------
+	# Option - Slider
+--------------------------------------------------------------*/
+#authors-list-styler-panel .authors-list-styler-panel-option-type-slider .authors-list-styler-panel-option-value {
+	display: none;
+}
+#authors-list-styler-panel .authors-list-styler-panel-option-slider {
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	position: relative;
+	height: 4px;
+}
+#authors-list-styler-panel .authors-list-styler-panel-option-slider .ui-slider-handle {
+	background: #0073aa;
+	border-radius: 50%;
+	top: -5px;
+	position: absolute;
+	width: 13px;
+	height: 13px;
+	margin-left: -7px;
+	outline: none;
+}
+
+/*--------------------------------------------------------------
+	# Option - Font Family
+--------------------------------------------------------------*/
+#authors-list-styler-panel .authors-list-styler-panel-option-type-font-family-suggest {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	background: #738a9a;
+	z-index: 99998;
+	color: rgba(255, 255, 255, 0.8);
+}
+#authors-list-styler-panel .authors-list-styler-panel-option-type-font-family-suggest span {
+	display: block;
+	border-bottom: 1px solid #4d5a68;
+	line-height: 1;
+	padding: 10px;
+}
+#authors-list-styler-panel .authors-list-styler-panel-option-type-font-family-suggest span:hover {
+	background: #4d5a68;
+}
+#authors-list-styler-panel .authors-list-styler-panel-option-type-font-family-suggest span:last-child {
+	border-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+	# Option - Image Upload
+--------------------------------------------------------------*/
+#authors-list-styler-panel .authors-list-styler-panel-option-type-image .authors-list-styler-panel-image {
+	display: none;
+	margin-top: 15px;
+	position: relative;
+}
+#authors-list-styler-panel .authors-list-styler-panel-option-type-image .authors-list-styler-panel-image img {
+	max-width: 150px;
+	max-height: 150px;
+}
+#authors-list-styler-panel .authors-list-styler-panel-option-type-image .authors-list-styler-panel-image .authors-list-styler-panel-image-delete {
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	padding: 3px 8px;
+	color: #fff;
+	background: #f00;
+	border-radius: 100%;
+}
+
+/*--------------------------------------------------------------
+	# Elements
+--------------------------------------------------------------*/
+.authors-list-styler-element-editable:hover {
+	outline: 1px dashed #738a9a;
+}
+.authors-list-styler-element-editable.authors-list-styler-active {
+	outline: 1px solid #738a9a;
+}
+
+body.authors-list-styler-active .authors-list-styler-element-editable {
+	cursor: pointer;
+}
+
+/*--------------------------------------------------------------
+	# Other
+--------------------------------------------------------------*/
+.authors-list-dashboard-wrap .authors-list-settings-field-styler_js_data,
+.authors-list-dashboard-wrap #authors-list-styler-panel-code {
+	display: none !important;
+}
